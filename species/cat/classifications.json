@@ -1,0 +1,3037 @@
+{
+  "$schema": "../../schema/classifications.schema.json",
+  "schemaVersion": 1,
+  "species": "cat",
+  "taxonomies": [
+    {
+      "id": "cat:cfa-classification",
+      "name": "CFA Competition Status",
+      "version": "2026-10-13",
+      "authority": {
+        "id": "cfa",
+        "name": "Cat Fanciers' Association",
+        "url": "https://cfa.org/"
+      },
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:fife-classification",
+      "name": "FIFe Breed Categories",
+      "version": "2026-10-13",
+      "authority": {
+        "id": "fife",
+        "name": "Fédération Internationale Féline",
+        "url": "https://fifeweb.org/"
+      },
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:gccf-classification",
+      "name": "GCCF Show Sections",
+      "version": "2026-10-13",
+      "authority": {
+        "id": "gccf",
+        "name": "Governing Council of the Cat Fancy",
+        "url": "https://www.gccfcats.org/"
+      },
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:tica-classification",
+      "name": "TICA Recognition Status",
+      "version": "2026-10-13",
+      "authority": {
+        "id": "tica",
+        "name": "The International Cat Association",
+        "url": "https://tica.org/"
+      },
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat:cfa-classification:championship",
+      "taxonomyId": "cat:cfa-classification",
+      "name": "Championship",
+      "slug": "championship",
+      "categoryType": "class",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:cfa-classification:provisional",
+      "taxonomyId": "cat:cfa-classification",
+      "name": "Provisional",
+      "slug": "provisional",
+      "categoryType": "class",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:fife-classification:category-1",
+      "taxonomyId": "cat:fife-classification",
+      "name": "Category 1",
+      "slug": "category-1",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:fife-classification:category-2",
+      "taxonomyId": "cat:fife-classification",
+      "name": "Category 2",
+      "slug": "category-2",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:fife-classification:category-3",
+      "taxonomyId": "cat:fife-classification",
+      "name": "Category 3",
+      "slug": "category-3",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:fife-classification:category-4",
+      "taxonomyId": "cat:fife-classification",
+      "name": "Category 4",
+      "slug": "category-4",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:gccf-classification:section-1",
+      "taxonomyId": "cat:gccf-classification",
+      "name": "Section 1",
+      "slug": "section-1",
+      "categoryType": "section",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:gccf-classification:section-2",
+      "taxonomyId": "cat:gccf-classification",
+      "name": "Section 2",
+      "slug": "section-2",
+      "categoryType": "section",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:gccf-classification:section-3",
+      "taxonomyId": "cat:gccf-classification",
+      "name": "Section 3",
+      "slug": "section-3",
+      "categoryType": "section",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:gccf-classification:section-4",
+      "taxonomyId": "cat:gccf-classification",
+      "name": "Section 4",
+      "slug": "section-4",
+      "categoryType": "section",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:gccf-classification:section-5",
+      "taxonomyId": "cat:gccf-classification",
+      "name": "Section 5",
+      "slug": "section-5",
+      "categoryType": "section",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:gccf-classification:section-6",
+      "taxonomyId": "cat:gccf-classification",
+      "name": "Section 6",
+      "slug": "section-6",
+      "categoryType": "section",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:tica-classification:advanced-new-breed",
+      "taxonomyId": "cat:tica-classification",
+      "name": "Advanced New Breed",
+      "slug": "advanced-new-breed",
+      "categoryType": "class",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "cat:tica-classification:championship",
+      "taxonomyId": "cat:tica-classification",
+      "name": "Championship",
+      "slug": "championship",
+      "categoryType": "class",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    }
+  ],
+  "memberships": [
+    {
+      "breedId": "cat:abyssinian",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Abyssinian",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:abyssinian",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier ABY",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:abyssinian",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier ABY",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:abyssinian",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Abyssinian",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-bobtail",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier American Bobtail",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-bobtail",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier American Bobtail Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-curl",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier American Curl",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-curl",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier ACS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-curl",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier American Curl Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-shorthair",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier American Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-shorthair",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier American Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-wirehair",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier American Wirehair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:american-wirehair",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier American Wirehair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:asian",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-5",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier ASH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:australian-mist",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-5",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier AUM",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:australian-mist",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Australian Mist",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:balinese",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Balinese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:balinese",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier BAL",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:balinese",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-6",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier BAL",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:balinese",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Balinese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:bengal",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Bengal",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:bengal",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier BEN",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:bengal",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier BEN",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:bengal",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Bengal Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:birman",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Birman",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:birman",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-1",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SBI",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:birman",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SBI",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:birman",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Birman",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:bombay",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Bombay",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:bombay",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier BOM",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:bombay",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Bombay",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:british-longhair",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier BLH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:british-longhair",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier BLH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:british-longhair",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier British Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:british-shorthair",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier British Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:british-shorthair",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier BSH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:british-shorthair",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier BSH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:british-shorthair",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier British Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:burmese",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Burmese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:burmese",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier BUR",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:burmese",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-5",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier BUR",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:burmese",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Burmese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:burmilla",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Burmilla",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:burmilla",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier BML",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:burmilla",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Burmilla Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:chartreux",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Chartreux",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:chartreux",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier CHA",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:chartreux",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier CHA",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:chartreux",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Chartreux",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:chausie",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Chausie",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:cherubim",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Cherubim",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:colorpoint-shorthair",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Colorpoint Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:cornish-rex",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Cornish Rex",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:cornish-rex",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier CRX",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:cornish-rex",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier CRX",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:cornish-rex",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Cornish Rex",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:cymric",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier CYM",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:cymric",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Cymric Tailed",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:devon-rex",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Devon Rex",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:devon-rex",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier DRX",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:devon-rex",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier DRX",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:devon-rex",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Devon Rex",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:donskoy",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier DSP",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:donskoy",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Donskoy",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:egyptian-mau",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Egyptian Mau",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:egyptian-mau",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier MAU",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:egyptian-mau",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier MAU",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:egyptian-mau",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Egyptian Mau",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:european-burmese",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier European Burmese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:european-shorthair",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier EUR",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:exotic-shorthair",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Exotic",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:exotic-shorthair",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-1",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier EXO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:exotic-shorthair",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-1",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier EXO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:exotic-shorthair",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Exotic Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:german-rex",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier GRX",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:havana-brown",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Havana Brown",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:havana-brown",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Havana",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:highlander",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Highlander Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:himalayan",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Himalayan",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:japanese-bobtail",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Japanese Bobtail",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:japanese-bobtail",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier JBS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:japanese-bobtail",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Japanese Bobtail Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:khao-manee",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:provisional",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Khao Manee",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:khao-manee",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Khaomanee",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:korat",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Korat",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:korat",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier KOR",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:korat",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier KOR",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:korat",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Korat",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:kurilian-bobtail",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier KBS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:kurilian-bobtail",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Kurilian Bobtail Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:laperm",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier LaPerm",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:laperm",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier LPS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:laperm",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier LPS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:laperm",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier LaPerm Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:lykoi",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Lykoi",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:lykoi",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier LYO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:lykoi",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier LYS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:lykoi",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Lykoi",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:maine-coon",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Maine Coon",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:maine-coon",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier MCO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:maine-coon",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier MCO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:maine-coon",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Maine Coon Polydactyl",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:manx",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Manx",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:manx",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier MAN",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:manx",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier MAN",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:manx",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Manx Tailed",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:minuet",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Minuet Talls Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:munchkin",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Munchkin Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:nebelung",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier NEB",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:nebelung",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Nebelung",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:neva-masquerade",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier NEM",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:norwegian-forest-cat",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Norwegian Forest Cat",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:norwegian-forest-cat",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier NFO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:norwegian-forest-cat",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier NFO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:norwegian-forest-cat",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Norwegian Forest",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ocicat",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Ocicat",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ocicat",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier OCI",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ocicat",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier OCI",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ocicat",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Ocicat",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:oriental-longhair",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier OLH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:oriental-longhair",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-6",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier OLH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:oriental-longhair",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Oriental Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:oriental-shorthair",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Oriental",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:oriental-shorthair",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier OSH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:oriental-shorthair",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-6",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier OSH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:oriental-shorthair",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Oriental Shorthair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:persian",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Persian",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:persian",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-1",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier PER",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:persian",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-1",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier PER",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:persian",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Persian",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:peterbald",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier PEB",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:peterbald",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Peterbald",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:pixiebob",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Pixiebob Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ragamuffin",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier RagaMuffin",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ragamuffin",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier RGM",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ragdoll",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Ragdoll",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ragdoll",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-1",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier RAG",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ragdoll",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier RAG",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:ragdoll",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Ragdoll",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:russian-blue",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Russian Blue",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:russian-blue",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier RUS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:russian-blue",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier RUS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:russian-blue",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Russian Blue",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:savannah",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Savannah",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:scottish-fold",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Scottish Fold",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:scottish-fold",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Scottish Fold Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:scottish-straight",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Scottish Straight Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:selkirk-rex",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Selkirk Rex",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:selkirk-rex",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SRS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:selkirk-rex",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SRS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:selkirk-rex",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Selkirk Rex Longhair",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:serengeti",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:advanced-new-breed",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Serengeti",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siamese",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Siamese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siamese",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SIA",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siamese",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-6",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SIA",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siamese",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Siamese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siberian",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Siberian",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siberian",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SIB",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siberian",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SIB",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:siberian",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Siberian",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:singapura",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Singapura",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:singapura",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SIN",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:singapura",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SIN",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:singapura",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Singapura",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:snowshoe",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SNO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:snowshoe",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SNO",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:snowshoe",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Snowshoe",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:sokoke",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-3",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SOK",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:sokoke",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SOK",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:somali",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Somali",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:somali",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SOM",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:somali",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SOS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:somali",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Somali",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:sphynx",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Sphynx",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:sphynx",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier SPH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:sphynx",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SPH",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:sphynx",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Sphynx",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:suffolk",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-5",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier SUF",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:tennessee-rex",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Tennessee Rex",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:thai",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier THA",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:thai",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier TAI",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:thai",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Thai",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:tonkinese",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Tonkinese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:tonkinese",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-5",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier TOS",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:tonkinese",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Tonkinese",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:toybob",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Toybob",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:toybob",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:advanced-new-breed",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Toybob",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:toyger",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-4",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier TOY",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:toyger",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Toyger",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:turkish-angora",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Turkish Angora",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:turkish-angora",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier TUA",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:turkish-angora",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Turkish Angora",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:turkish-van",
+      "taxonomyId": "cat:cfa-classification",
+      "categoryId": "cat:cfa-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Cat Fanciers' Association",
+          "url": "https://cfa.org/wp-content/uploads/2026/04/26-27standards.pdf",
+          "reference": "CFA identifier Turkish Van",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:turkish-van",
+      "taxonomyId": "cat:fife-classification",
+      "categoryId": "cat:fife-classification:category-1",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Fédération Internationale Féline",
+          "url": "https://fifeweb.org/cats/breeds/",
+          "reference": "FIFE identifier TUV",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:turkish-van",
+      "taxonomyId": "cat:gccf-classification",
+      "categoryId": "cat:gccf-classification:section-2",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "Governing Council of the Cat Fancy",
+          "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
+          "reference": "GCCF identifier TUV",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "cat:turkish-van",
+      "taxonomyId": "cat:tica-classification",
+      "categoryId": "cat:tica-classification:championship",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "The International Cat Association",
+          "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+          "reference": "TICA identifier Turkish Van",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    }
+  ]
+}

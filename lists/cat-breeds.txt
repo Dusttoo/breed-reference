@@ -3,6 +3,7 @@ American Bobtail
 American Curl
 American Shorthair
 American Wirehair
+Asian
 Australian Mist
 Balinese
 Bengal
@@ -62,6 +63,7 @@ Snowshoe
 Sokoke
 Somali
 Sphynx
+Suffolk
 Tennessee Rex
 Thai
 Tonkinese

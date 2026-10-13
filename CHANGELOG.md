@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.2.0 — 2026-10-13
+
+- Expanded dog classifications to cover AKC, CKC, Dogs Australia, FCI, and
+  UKC as separate registry-owned taxonomies.
+- Added cat classifications for CFA competition status, FIFe categories, GCCF
+  show sections, and TICA recognition status.
+- Added the GCCF-recognized Asian and Suffolk breeds that the earlier
+  count-only GCCF audit could not reconcile.
+- Preserved pending-recognition distinctions for AKC, UKC, CFA, FIFe, and TICA
+  without assigning ungrouped FCI provisional breeds to invented categories.
+- Documented the official-source coverage audit and the absence of a published
+  ABKC grouping taxonomy.
+
 ## 1.1.0 — 2026-10-13
 
 - Added a species-neutral classification contract for versioned taxonomies,

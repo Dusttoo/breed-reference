@@ -21,3 +21,5 @@ jobs:
       - run: npm ci
       - run: npm audit --audit-level=moderate
       - run: npm test
+      - run: npm run generate:classifications
+      - run: git diff --exit-code -- species/dog/classifications.json species/cat/classifications.json

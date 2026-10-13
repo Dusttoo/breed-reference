@@ -7,10 +7,13 @@
       "id": "cat",
       "name": "Domestic Cat",
       "scientificName": "Felis catus",
-      "breedCount": 71,
+      "breedCount": 73,
       "metadata": "species/cat/species.json",
       "breeds": "species/cat/breeds.json",
-      "list": "lists/cat-breeds.txt"
+      "list": "lists/cat-breeds.txt",
+      "classifications": "species/cat/classifications.json",
+      "taxonomyCount": 4,
+      "classificationMembershipCount": 196
     },
     {
       "id": "dog",
@@ -21,8 +24,8 @@
       "breeds": "species/dog/breeds.json",
       "list": "lists/dog-breeds.txt",
       "classifications": "species/dog/classifications.json",
-      "taxonomyCount": 1,
-      "classificationMembershipCount": 292
+      "taxonomyCount": 5,
+      "classificationMembershipCount": 1437
     }
   ]
 }
