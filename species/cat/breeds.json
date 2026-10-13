@@ -1,0 +1,1998 @@
+{
+  "$schema": "../../schema/breeds.schema.json",
+  "schemaVersion": 1,
+  "species": "cat",
+  "sources": [
+    {
+      "name": "Cat Fanciers' Association breeds",
+      "url": "https://cfa.org/breeds/",
+      "retrievedAt": "2026-10-13"
+    },
+    {
+      "name": "The International Cat Association breeds",
+      "url": "https://tica.org/ticas-breeds/browse-all-breeds/",
+      "retrievedAt": "2026-10-13"
+    },
+    {
+      "name": "Federation Internationale Feline breeds",
+      "url": "https://fifeweb.org/cats/breeds/",
+      "retrievedAt": "2026-10-13"
+    },
+    {
+      "name": "Governing Council of the Cat Fancy breed statistics",
+      "url": "https://www.gccfcats.org/breeding-cats/stats-and-policies/",
+      "retrievedAt": "2026-10-13",
+      "note": "GCCF reports 40 recognized breeds; used as a supplementary count check because its public page does not expose a stable breed-name index."
+    }
+  ],
+  "breeds": [
+    {
+      "id": "cat:abyssinian",
+      "name": "Abyssinian",
+      "slug": "abyssinian",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Abyssinian",
+            "name": "Abyssinian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "ABY",
+            "name": "Abyssinian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Abyssinian",
+            "name": "Abyssinian",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:american-bobtail",
+      "name": "American Bobtail",
+      "slug": "american-bobtail",
+      "aliases": [
+        "American Bobtail Shorthair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "American Bobtail",
+            "name": "American Bobtail",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "American Bobtail",
+            "name": "American Bobtail",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "American Bobtail Shorthair",
+            "name": "American Bobtail Shorthair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:american-curl",
+      "name": "American Curl",
+      "slug": "american-curl",
+      "aliases": [
+        "American Curl Longhair",
+        "American Curl Shorthair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "American Curl",
+            "name": "American Curl",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "ACL",
+            "name": "American Curl Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "ACS",
+            "name": "American Curl Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "American Curl",
+            "name": "American Curl",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "American Curl Longhair",
+            "name": "American Curl Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:american-shorthair",
+      "name": "American Shorthair",
+      "slug": "american-shorthair",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "American Shorthair",
+            "name": "American Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "American Shorthair",
+            "name": "American Shorthair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:american-wirehair",
+      "name": "American Wirehair",
+      "slug": "american-wirehair",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "American Wirehair",
+            "name": "American Wirehair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "American Wirehair",
+            "name": "American Wirehair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:australian-mist",
+      "name": "Australian Mist",
+      "slug": "australian-mist",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Australian Mist",
+            "name": "Australian Mist",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:balinese",
+      "name": "Balinese",
+      "slug": "balinese",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Balinese",
+            "name": "Balinese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "BAL",
+            "name": "Balinese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Balinese",
+            "name": "Balinese",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:bengal",
+      "name": "Bengal",
+      "slug": "bengal",
+      "aliases": [
+        "Bengal Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Bengal",
+            "name": "Bengal",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "BEN",
+            "name": "Bengal",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Bengal",
+            "name": "Bengal",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Bengal Longhair",
+            "name": "Bengal Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:birman",
+      "name": "Birman",
+      "slug": "birman",
+      "aliases": [
+        "Sacred Birman"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Birman",
+            "name": "Birman",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SBI",
+            "name": "Sacred Birman",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Birman",
+            "name": "Birman",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:bombay",
+      "name": "Bombay",
+      "slug": "bombay",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Bombay",
+            "name": "Bombay",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "BOM",
+            "name": "Bombay",
+            "status": "preliminary",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Bombay",
+            "name": "Bombay",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:british-longhair",
+      "name": "British Longhair",
+      "slug": "british-longhair",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "BLH",
+            "name": "British Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "British Longhair",
+            "name": "British Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:british-shorthair",
+      "name": "British Shorthair",
+      "slug": "british-shorthair",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "British Shorthair",
+            "name": "British Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "BSH",
+            "name": "British Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "British Shorthair",
+            "name": "British Shorthair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:burmese",
+      "name": "Burmese",
+      "slug": "burmese",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Burmese",
+            "name": "Burmese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "BUR",
+            "name": "Burmese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Burmese",
+            "name": "Burmese",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:burmilla",
+      "name": "Burmilla",
+      "slug": "burmilla",
+      "aliases": [
+        "Burmilla Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Burmilla",
+            "name": "Burmilla",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "BML",
+            "name": "Burmilla",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Burmilla",
+            "name": "Burmilla",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Burmilla Longhair",
+            "name": "Burmilla Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:chartreux",
+      "name": "Chartreux",
+      "slug": "chartreux",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Chartreux",
+            "name": "Chartreux",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "CHA",
+            "name": "Chartreux",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Chartreux",
+            "name": "Chartreux",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:chausie",
+      "name": "Chausie",
+      "slug": "chausie",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Chausie",
+            "name": "Chausie",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:cherubim",
+      "name": "Cherubim",
+      "slug": "cherubim",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Cherubim",
+            "name": "Cherubim",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:colorpoint-shorthair",
+      "name": "Colorpoint Shorthair",
+      "slug": "colorpoint-shorthair",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Colorpoint Shorthair",
+            "name": "Colorpoint Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:cornish-rex",
+      "name": "Cornish Rex",
+      "slug": "cornish-rex",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Cornish Rex",
+            "name": "Cornish Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "CRX",
+            "name": "Cornish Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Cornish Rex",
+            "name": "Cornish Rex",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:cymric",
+      "name": "Cymric",
+      "slug": "cymric",
+      "aliases": [
+        "Cymric Tailed"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "CYM",
+            "name": "Cymric",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Cymric",
+            "name": "Cymric",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Cymric Tailed",
+            "name": "Cymric Tailed",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:devon-rex",
+      "name": "Devon Rex",
+      "slug": "devon-rex",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Devon Rex",
+            "name": "Devon Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "DRX",
+            "name": "Devon Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Devon Rex",
+            "name": "Devon Rex",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:donskoy",
+      "name": "Donskoy",
+      "slug": "donskoy",
+      "aliases": [
+        "Don Sphynx"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "DSP",
+            "name": "Don Sphynx",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Donskoy",
+            "name": "Donskoy",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:egyptian-mau",
+      "name": "Egyptian Mau",
+      "slug": "egyptian-mau",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Egyptian Mau",
+            "name": "Egyptian Mau",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "MAU",
+            "name": "Egyptian Mau",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Egyptian Mau",
+            "name": "Egyptian Mau",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:european-burmese",
+      "name": "European Burmese",
+      "slug": "european-burmese",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "European Burmese",
+            "name": "European Burmese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:european-shorthair",
+      "name": "European Shorthair",
+      "slug": "european-shorthair",
+      "aliases": [
+        "European"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "EUR",
+            "name": "European",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:exotic-shorthair",
+      "name": "Exotic Shorthair",
+      "slug": "exotic-shorthair",
+      "aliases": [
+        "Exotic"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Exotic",
+            "name": "Exotic",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "EXO",
+            "name": "Exotic",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Exotic Shorthair",
+            "name": "Exotic Shorthair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:german-rex",
+      "name": "German Rex",
+      "slug": "german-rex",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "GRX",
+            "name": "German Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:havana-brown",
+      "name": "Havana Brown",
+      "slug": "havana-brown",
+      "aliases": [
+        "Havana"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Havana Brown",
+            "name": "Havana Brown",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Havana",
+            "name": "Havana",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:highlander",
+      "name": "Highlander",
+      "slug": "highlander",
+      "aliases": [
+        "Highlander Shorthair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Highlander",
+            "name": "Highlander",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Highlander Shorthair",
+            "name": "Highlander Shorthair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:himalayan",
+      "name": "Himalayan",
+      "slug": "himalayan",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Himalayan",
+            "name": "Himalayan",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:japanese-bobtail",
+      "name": "Japanese Bobtail",
+      "slug": "japanese-bobtail",
+      "aliases": [
+        "Japanese Bobtail Longhair",
+        "Japanese Bobtail Shorthair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Japanese Bobtail",
+            "name": "Japanese Bobtail",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "JBS",
+            "name": "Japanese Bobtail Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Japanese Bobtail",
+            "name": "Japanese Bobtail",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Japanese Bobtail Longhair",
+            "name": "Japanese Bobtail Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:khao-manee",
+      "name": "Khao Manee",
+      "slug": "khao-manee",
+      "aliases": [
+        "Khaomanee"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Khao Manee",
+            "name": "Khao Manee",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Khaomanee",
+            "name": "Khaomanee",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:korat",
+      "name": "Korat",
+      "slug": "korat",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Korat",
+            "name": "Korat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "KOR",
+            "name": "Korat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Korat",
+            "name": "Korat",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:kurilian-bobtail",
+      "name": "Kurilian Bobtail",
+      "slug": "kurilian-bobtail",
+      "aliases": [
+        "Kurilean Bobtail Longhair",
+        "Kurilean Bobtail Shorthair",
+        "Kurilian Bobtail Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "KBL",
+            "name": "Kurilean Bobtail Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "KBS",
+            "name": "Kurilean Bobtail Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Kurilian Bobtail",
+            "name": "Kurilian Bobtail",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Kurilian Bobtail Longhair",
+            "name": "Kurilian Bobtail Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:laperm",
+      "name": "LaPerm",
+      "slug": "laperm",
+      "aliases": [
+        "LaPerm Longhair",
+        "LaPerm Shorthair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "LaPerm",
+            "name": "LaPerm",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "LPL",
+            "name": "LaPerm Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "LPS",
+            "name": "LaPerm Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "LaPerm",
+            "name": "LaPerm",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "LaPerm Shorthair",
+            "name": "LaPerm Shorthair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:lykoi",
+      "name": "Lykoi",
+      "slug": "lykoi",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Lykoi",
+            "name": "Lykoi",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "LYO",
+            "name": "Lykoi",
+            "status": "preliminary",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Lykoi",
+            "name": "Lykoi",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:maine-coon",
+      "name": "Maine Coon",
+      "slug": "maine-coon",
+      "aliases": [
+        "Maine Coon Polydactyl"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Maine Coon",
+            "name": "Maine Coon",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "MCO",
+            "name": "Maine Coon",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Maine Coon",
+            "name": "Maine Coon",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Maine Coon Polydactyl",
+            "name": "Maine Coon Polydactyl",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:manx",
+      "name": "Manx",
+      "slug": "manx",
+      "aliases": [
+        "Manx Tailed"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Manx",
+            "name": "Manx",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "MAN",
+            "name": "Manx",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Manx",
+            "name": "Manx",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Manx Tailed",
+            "name": "Manx Tailed",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:minuet",
+      "name": "Minuet",
+      "slug": "minuet",
+      "aliases": [
+        "Minuet Longhair",
+        "Minuet Talls",
+        "Minuet Talls Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Minuet",
+            "name": "Minuet",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Minuet Longhair",
+            "name": "Minuet Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Minuet Talls",
+            "name": "Minuet Talls",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Minuet Talls Longhair",
+            "name": "Minuet Talls Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:munchkin",
+      "name": "Munchkin",
+      "slug": "munchkin",
+      "aliases": [
+        "Munchkin Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Munchkin",
+            "name": "Munchkin",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Munchkin Longhair",
+            "name": "Munchkin Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:nebelung",
+      "name": "Nebelung",
+      "slug": "nebelung",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Nebelung",
+            "name": "Nebelung",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:neva-masquerade",
+      "name": "Neva Masquerade",
+      "slug": "neva-masquerade",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "NEM",
+            "name": "Neva Masquerade",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:norwegian-forest-cat",
+      "name": "Norwegian Forest Cat",
+      "slug": "norwegian-forest-cat",
+      "aliases": [
+        "Norwegian Forest"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Norwegian Forest Cat",
+            "name": "Norwegian Forest Cat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "NFO",
+            "name": "Norwegian Forest Cat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Norwegian Forest",
+            "name": "Norwegian Forest",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:ocicat",
+      "name": "Ocicat",
+      "slug": "ocicat",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Ocicat",
+            "name": "Ocicat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "OCI",
+            "name": "Ocicat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Ocicat",
+            "name": "Ocicat",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:oriental-longhair",
+      "name": "Oriental Longhair",
+      "slug": "oriental-longhair",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "OLH",
+            "name": "Oriental Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Oriental Longhair",
+            "name": "Oriental Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:oriental-shorthair",
+      "name": "Oriental Shorthair",
+      "slug": "oriental-shorthair",
+      "aliases": [
+        "Oriental"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Oriental",
+            "name": "Oriental",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "OSH",
+            "name": "Oriental Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Oriental Shorthair",
+            "name": "Oriental Shorthair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:persian",
+      "name": "Persian",
+      "slug": "persian",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Persian",
+            "name": "Persian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "PER",
+            "name": "Persian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Persian",
+            "name": "Persian",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:peterbald",
+      "name": "Peterbald",
+      "slug": "peterbald",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "PEB",
+            "name": "Peterbald",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Peterbald",
+            "name": "Peterbald",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:pixiebob",
+      "name": "Pixiebob",
+      "slug": "pixiebob",
+      "aliases": [
+        "Pixiebob Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Pixiebob",
+            "name": "Pixiebob",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Pixiebob Longhair",
+            "name": "Pixiebob Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:ragamuffin",
+      "name": "RagaMuffin",
+      "slug": "ragamuffin",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "RagaMuffin",
+            "name": "RagaMuffin",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:ragdoll",
+      "name": "Ragdoll",
+      "slug": "ragdoll",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Ragdoll",
+            "name": "Ragdoll",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "RAG",
+            "name": "Ragdoll",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Ragdoll",
+            "name": "Ragdoll",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:russian-blue",
+      "name": "Russian Blue",
+      "slug": "russian-blue",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Russian Blue",
+            "name": "Russian Blue",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "RUS",
+            "name": "Russian Blue",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Russian Blue",
+            "name": "Russian Blue",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:savannah",
+      "name": "Savannah",
+      "slug": "savannah",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Savannah",
+            "name": "Savannah",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:scottish-fold",
+      "name": "Scottish Fold",
+      "slug": "scottish-fold",
+      "aliases": [
+        "Scottish Fold Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Scottish Fold",
+            "name": "Scottish Fold",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Scottish Fold",
+            "name": "Scottish Fold",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Scottish Fold Longhair",
+            "name": "Scottish Fold Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:scottish-straight",
+      "name": "Scottish Straight",
+      "slug": "scottish-straight",
+      "aliases": [
+        "Scottish Straight Longhair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Scottish Straight",
+            "name": "Scottish Straight",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Scottish Straight Longhair",
+            "name": "Scottish Straight Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:selkirk-rex",
+      "name": "Selkirk Rex",
+      "slug": "selkirk-rex",
+      "aliases": [
+        "Selkirk Rex Longhair",
+        "Selkirk Rex Shorthair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Selkirk Rex",
+            "name": "Selkirk Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SRL",
+            "name": "Selkirk Rex Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SRS",
+            "name": "Selkirk Rex Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Selkirk Rex",
+            "name": "Selkirk Rex",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Selkirk Rex Longhair",
+            "name": "Selkirk Rex Longhair",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:serengeti",
+      "name": "Serengeti",
+      "slug": "serengeti",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Serengeti",
+            "name": "Serengeti",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:siamese",
+      "name": "Siamese",
+      "slug": "siamese",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Siamese",
+            "name": "Siamese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SIA",
+            "name": "Siamese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Siamese",
+            "name": "Siamese",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:siberian",
+      "name": "Siberian",
+      "slug": "siberian",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Siberian",
+            "name": "Siberian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SIB",
+            "name": "Siberian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Siberian",
+            "name": "Siberian",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:singapura",
+      "name": "Singapura",
+      "slug": "singapura",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Singapura",
+            "name": "Singapura",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SIN",
+            "name": "Singapura",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Singapura",
+            "name": "Singapura",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:snowshoe",
+      "name": "Snowshoe",
+      "slug": "snowshoe",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "SNO",
+            "name": "Snowshoe",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Snowshoe",
+            "name": "Snowshoe",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:sokoke",
+      "name": "Sokoke",
+      "slug": "sokoke",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "SOK",
+            "name": "Sokoke",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:somali",
+      "name": "Somali",
+      "slug": "somali",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Somali",
+            "name": "Somali",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SOM",
+            "name": "Somali",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Somali",
+            "name": "Somali",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:sphynx",
+      "name": "Sphynx",
+      "slug": "sphynx",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Sphynx",
+            "name": "Sphynx",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "SPH",
+            "name": "Sphynx",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Sphynx",
+            "name": "Sphynx",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:tennessee-rex",
+      "name": "Tennessee Rex",
+      "slug": "tennessee-rex",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Tennessee Rex",
+            "name": "Tennessee Rex",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:thai",
+      "name": "Thai",
+      "slug": "thai",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "fife",
+            "registryId": "THA",
+            "name": "Thai",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Thai",
+            "name": "Thai",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:tonkinese",
+      "name": "Tonkinese",
+      "slug": "tonkinese",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Tonkinese",
+            "name": "Tonkinese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Tonkinese",
+            "name": "Tonkinese",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:toybob",
+      "name": "Toybob",
+      "slug": "toybob",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Toybob",
+            "name": "Toybob",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Toybob",
+            "name": "Toybob",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:toyger",
+      "name": "Toyger",
+      "slug": "toyger",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "tica",
+            "registryId": "Toyger",
+            "name": "Toyger",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:turkish-angora",
+      "name": "Turkish Angora",
+      "slug": "turkish-angora",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Turkish Angora",
+            "name": "Turkish Angora",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "TUA",
+            "name": "Turkish Angora",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Turkish Angora",
+            "name": "Turkish Angora",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:turkish-van",
+      "name": "Turkish Van",
+      "slug": "turkish-van",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "cfa",
+            "registryId": "Turkish Van",
+            "name": "Turkish Van",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "fife",
+            "registryId": "TUV",
+            "name": "Turkish Van",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "tica",
+            "registryId": "Turkish Van",
+            "name": "Turkish Van",
+            "status": "listed",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    }
+  ]
+}

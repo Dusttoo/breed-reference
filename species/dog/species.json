@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema/species.schema.json",
+  "id": "dog",
+  "name": "Domestic Dog",
+  "scientificName": "Canis lupus familiaris"
+}

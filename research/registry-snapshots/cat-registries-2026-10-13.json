@@ -1,0 +1,921 @@
+{
+  "auditedAt": "2026-10-13",
+  "registries": {
+    "cfa": {
+      "source": "https://cfa.org/breeds/",
+      "count": 45,
+      "note": "Current CFA recognized-breed index, transcribed as a dated snapshot.",
+      "breeds": [
+        {
+          "name": "Abyssinian",
+          "registryId": "Abyssinian",
+          "status": "recognized"
+        },
+        {
+          "name": "American Bobtail",
+          "registryId": "American Bobtail",
+          "status": "recognized"
+        },
+        {
+          "name": "American Curl",
+          "registryId": "American Curl",
+          "status": "recognized"
+        },
+        {
+          "name": "American Shorthair",
+          "registryId": "American Shorthair",
+          "status": "recognized"
+        },
+        {
+          "name": "American Wirehair",
+          "registryId": "American Wirehair",
+          "status": "recognized"
+        },
+        {
+          "name": "Balinese",
+          "registryId": "Balinese",
+          "status": "recognized"
+        },
+        {
+          "name": "Bengal",
+          "registryId": "Bengal",
+          "status": "recognized"
+        },
+        {
+          "name": "Birman",
+          "registryId": "Birman",
+          "status": "recognized"
+        },
+        {
+          "name": "Bombay",
+          "registryId": "Bombay",
+          "status": "recognized"
+        },
+        {
+          "name": "British Shorthair",
+          "registryId": "British Shorthair",
+          "status": "recognized"
+        },
+        {
+          "name": "Burmese",
+          "registryId": "Burmese",
+          "status": "recognized"
+        },
+        {
+          "name": "Burmilla",
+          "registryId": "Burmilla",
+          "status": "recognized"
+        },
+        {
+          "name": "Chartreux",
+          "registryId": "Chartreux",
+          "status": "recognized"
+        },
+        {
+          "name": "Colorpoint Shorthair",
+          "registryId": "Colorpoint Shorthair",
+          "status": "recognized"
+        },
+        {
+          "name": "Cornish Rex",
+          "registryId": "Cornish Rex",
+          "status": "recognized"
+        },
+        {
+          "name": "Devon Rex",
+          "registryId": "Devon Rex",
+          "status": "recognized"
+        },
+        {
+          "name": "Egyptian Mau",
+          "registryId": "Egyptian Mau",
+          "status": "recognized"
+        },
+        {
+          "name": "European Burmese",
+          "registryId": "European Burmese",
+          "status": "recognized"
+        },
+        {
+          "name": "Exotic",
+          "registryId": "Exotic",
+          "status": "recognized"
+        },
+        {
+          "name": "Havana Brown",
+          "registryId": "Havana Brown",
+          "status": "recognized"
+        },
+        {
+          "name": "Japanese Bobtail",
+          "registryId": "Japanese Bobtail",
+          "status": "recognized"
+        },
+        {
+          "name": "Khao Manee",
+          "registryId": "Khao Manee",
+          "status": "recognized"
+        },
+        {
+          "name": "Korat",
+          "registryId": "Korat",
+          "status": "recognized"
+        },
+        {
+          "name": "LaPerm",
+          "registryId": "LaPerm",
+          "status": "recognized"
+        },
+        {
+          "name": "Lykoi",
+          "registryId": "Lykoi",
+          "status": "recognized"
+        },
+        {
+          "name": "Maine Coon",
+          "registryId": "Maine Coon",
+          "status": "recognized"
+        },
+        {
+          "name": "Manx",
+          "registryId": "Manx",
+          "status": "recognized"
+        },
+        {
+          "name": "Norwegian Forest Cat",
+          "registryId": "Norwegian Forest Cat",
+          "status": "recognized"
+        },
+        {
+          "name": "Ocicat",
+          "registryId": "Ocicat",
+          "status": "recognized"
+        },
+        {
+          "name": "Oriental",
+          "registryId": "Oriental",
+          "status": "recognized"
+        },
+        {
+          "name": "Persian",
+          "registryId": "Persian",
+          "status": "recognized"
+        },
+        {
+          "name": "RagaMuffin",
+          "registryId": "RagaMuffin",
+          "status": "recognized"
+        },
+        {
+          "name": "Ragdoll",
+          "registryId": "Ragdoll",
+          "status": "recognized"
+        },
+        {
+          "name": "Russian Blue",
+          "registryId": "Russian Blue",
+          "status": "recognized"
+        },
+        {
+          "name": "Scottish Fold",
+          "registryId": "Scottish Fold",
+          "status": "recognized"
+        },
+        {
+          "name": "Selkirk Rex",
+          "registryId": "Selkirk Rex",
+          "status": "recognized"
+        },
+        {
+          "name": "Siamese",
+          "registryId": "Siamese",
+          "status": "recognized"
+        },
+        {
+          "name": "Siberian",
+          "registryId": "Siberian",
+          "status": "recognized"
+        },
+        {
+          "name": "Singapura",
+          "registryId": "Singapura",
+          "status": "recognized"
+        },
+        {
+          "name": "Somali",
+          "registryId": "Somali",
+          "status": "recognized"
+        },
+        {
+          "name": "Sphynx",
+          "registryId": "Sphynx",
+          "status": "recognized"
+        },
+        {
+          "name": "Tonkinese",
+          "registryId": "Tonkinese",
+          "status": "recognized"
+        },
+        {
+          "name": "Toybob",
+          "registryId": "Toybob",
+          "status": "recognized"
+        },
+        {
+          "name": "Turkish Angora",
+          "registryId": "Turkish Angora",
+          "status": "recognized"
+        },
+        {
+          "name": "Turkish Van",
+          "registryId": "Turkish Van",
+          "status": "recognized"
+        }
+      ]
+    },
+    "tica": {
+      "source": "https://tica.org/ticas-breeds/browse-all-breeds/",
+      "count": 83,
+      "note": "Current public browse entries, including separately displayed coat and tail variants.",
+      "breeds": [
+        {
+          "name": "Abyssinian",
+          "registryId": "Abyssinian",
+          "status": "listed"
+        },
+        {
+          "name": "American Bobtail",
+          "registryId": "American Bobtail",
+          "status": "listed"
+        },
+        {
+          "name": "American Bobtail Shorthair",
+          "registryId": "American Bobtail Shorthair",
+          "status": "listed"
+        },
+        {
+          "name": "American Curl",
+          "registryId": "American Curl",
+          "status": "listed"
+        },
+        {
+          "name": "American Curl Longhair",
+          "registryId": "American Curl Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "American Shorthair",
+          "registryId": "American Shorthair",
+          "status": "listed"
+        },
+        {
+          "name": "American Wirehair",
+          "registryId": "American Wirehair",
+          "status": "listed"
+        },
+        {
+          "name": "Australian Mist",
+          "registryId": "Australian Mist",
+          "status": "listed"
+        },
+        {
+          "name": "Balinese",
+          "registryId": "Balinese",
+          "status": "listed"
+        },
+        {
+          "name": "Bengal",
+          "registryId": "Bengal",
+          "status": "listed"
+        },
+        {
+          "name": "Bengal Longhair",
+          "registryId": "Bengal Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Birman",
+          "registryId": "Birman",
+          "status": "listed"
+        },
+        {
+          "name": "Bombay",
+          "registryId": "Bombay",
+          "status": "listed"
+        },
+        {
+          "name": "British Longhair",
+          "registryId": "British Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "British Shorthair",
+          "registryId": "British Shorthair",
+          "status": "listed"
+        },
+        {
+          "name": "Burmese",
+          "registryId": "Burmese",
+          "status": "listed"
+        },
+        {
+          "name": "Burmilla",
+          "registryId": "Burmilla",
+          "status": "listed"
+        },
+        {
+          "name": "Burmilla Longhair",
+          "registryId": "Burmilla Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Chartreux",
+          "registryId": "Chartreux",
+          "status": "listed"
+        },
+        {
+          "name": "Chausie",
+          "registryId": "Chausie",
+          "status": "listed"
+        },
+        {
+          "name": "Cherubim",
+          "registryId": "Cherubim",
+          "status": "listed"
+        },
+        {
+          "name": "Cornish Rex",
+          "registryId": "Cornish Rex",
+          "status": "listed"
+        },
+        {
+          "name": "Cymric",
+          "registryId": "Cymric",
+          "status": "listed"
+        },
+        {
+          "name": "Cymric Tailed",
+          "registryId": "Cymric Tailed",
+          "status": "listed"
+        },
+        {
+          "name": "Devon Rex",
+          "registryId": "Devon Rex",
+          "status": "listed"
+        },
+        {
+          "name": "Donskoy",
+          "registryId": "Donskoy",
+          "status": "listed"
+        },
+        {
+          "name": "Egyptian Mau",
+          "registryId": "Egyptian Mau",
+          "status": "listed"
+        },
+        {
+          "name": "Exotic Shorthair",
+          "registryId": "Exotic Shorthair",
+          "status": "listed"
+        },
+        {
+          "name": "Havana",
+          "registryId": "Havana",
+          "status": "listed"
+        },
+        {
+          "name": "Highlander",
+          "registryId": "Highlander",
+          "status": "listed"
+        },
+        {
+          "name": "Highlander Shorthair",
+          "registryId": "Highlander Shorthair",
+          "status": "listed"
+        },
+        {
+          "name": "Himalayan",
+          "registryId": "Himalayan",
+          "status": "listed"
+        },
+        {
+          "name": "Japanese Bobtail",
+          "registryId": "Japanese Bobtail",
+          "status": "listed"
+        },
+        {
+          "name": "Japanese Bobtail Longhair",
+          "registryId": "Japanese Bobtail Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Khaomanee",
+          "registryId": "Khaomanee",
+          "status": "listed"
+        },
+        {
+          "name": "Korat",
+          "registryId": "Korat",
+          "status": "listed"
+        },
+        {
+          "name": "Kurilian Bobtail",
+          "registryId": "Kurilian Bobtail",
+          "status": "listed"
+        },
+        {
+          "name": "Kurilian Bobtail Longhair",
+          "registryId": "Kurilian Bobtail Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "LaPerm",
+          "registryId": "LaPerm",
+          "status": "listed"
+        },
+        {
+          "name": "LaPerm Shorthair",
+          "registryId": "LaPerm Shorthair",
+          "status": "listed"
+        },
+        {
+          "name": "Lykoi",
+          "registryId": "Lykoi",
+          "status": "listed"
+        },
+        {
+          "name": "Maine Coon",
+          "registryId": "Maine Coon",
+          "status": "listed"
+        },
+        {
+          "name": "Maine Coon Polydactyl",
+          "registryId": "Maine Coon Polydactyl",
+          "status": "listed"
+        },
+        {
+          "name": "Manx",
+          "registryId": "Manx",
+          "status": "listed"
+        },
+        {
+          "name": "Manx Tailed",
+          "registryId": "Manx Tailed",
+          "status": "listed"
+        },
+        {
+          "name": "Minuet",
+          "registryId": "Minuet",
+          "status": "listed"
+        },
+        {
+          "name": "Minuet Longhair",
+          "registryId": "Minuet Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Minuet Talls",
+          "registryId": "Minuet Talls",
+          "status": "listed"
+        },
+        {
+          "name": "Minuet Talls Longhair",
+          "registryId": "Minuet Talls Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Munchkin",
+          "registryId": "Munchkin",
+          "status": "listed"
+        },
+        {
+          "name": "Munchkin Longhair",
+          "registryId": "Munchkin Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Nebelung",
+          "registryId": "Nebelung",
+          "status": "listed"
+        },
+        {
+          "name": "Norwegian Forest",
+          "registryId": "Norwegian Forest",
+          "status": "listed"
+        },
+        {
+          "name": "Ocicat",
+          "registryId": "Ocicat",
+          "status": "listed"
+        },
+        {
+          "name": "Oriental Longhair",
+          "registryId": "Oriental Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Oriental Shorthair",
+          "registryId": "Oriental Shorthair",
+          "status": "listed"
+        },
+        {
+          "name": "Persian",
+          "registryId": "Persian",
+          "status": "listed"
+        },
+        {
+          "name": "Peterbald",
+          "registryId": "Peterbald",
+          "status": "listed"
+        },
+        {
+          "name": "Pixiebob",
+          "registryId": "Pixiebob",
+          "status": "listed"
+        },
+        {
+          "name": "Pixiebob Longhair",
+          "registryId": "Pixiebob Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Ragdoll",
+          "registryId": "Ragdoll",
+          "status": "listed"
+        },
+        {
+          "name": "Russian Blue",
+          "registryId": "Russian Blue",
+          "status": "listed"
+        },
+        {
+          "name": "Savannah",
+          "registryId": "Savannah",
+          "status": "listed"
+        },
+        {
+          "name": "Scottish Fold",
+          "registryId": "Scottish Fold",
+          "status": "listed"
+        },
+        {
+          "name": "Scottish Fold Longhair",
+          "registryId": "Scottish Fold Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Scottish Straight",
+          "registryId": "Scottish Straight",
+          "status": "listed"
+        },
+        {
+          "name": "Scottish Straight Longhair",
+          "registryId": "Scottish Straight Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Selkirk Rex",
+          "registryId": "Selkirk Rex",
+          "status": "listed"
+        },
+        {
+          "name": "Selkirk Rex Longhair",
+          "registryId": "Selkirk Rex Longhair",
+          "status": "listed"
+        },
+        {
+          "name": "Serengeti",
+          "registryId": "Serengeti",
+          "status": "listed"
+        },
+        {
+          "name": "Siamese",
+          "registryId": "Siamese",
+          "status": "listed"
+        },
+        {
+          "name": "Siberian",
+          "registryId": "Siberian",
+          "status": "listed"
+        },
+        {
+          "name": "Singapura",
+          "registryId": "Singapura",
+          "status": "listed"
+        },
+        {
+          "name": "Snowshoe",
+          "registryId": "Snowshoe",
+          "status": "listed"
+        },
+        {
+          "name": "Somali",
+          "registryId": "Somali",
+          "status": "listed"
+        },
+        {
+          "name": "Sphynx",
+          "registryId": "Sphynx",
+          "status": "listed"
+        },
+        {
+          "name": "Tennessee Rex",
+          "registryId": "Tennessee Rex",
+          "status": "listed"
+        },
+        {
+          "name": "Thai",
+          "registryId": "Thai",
+          "status": "listed"
+        },
+        {
+          "name": "Tonkinese",
+          "registryId": "Tonkinese",
+          "status": "listed"
+        },
+        {
+          "name": "Toybob",
+          "registryId": "Toybob",
+          "status": "listed"
+        },
+        {
+          "name": "Toyger",
+          "registryId": "Toyger",
+          "status": "listed"
+        },
+        {
+          "name": "Turkish Angora",
+          "registryId": "Turkish Angora",
+          "status": "listed"
+        },
+        {
+          "name": "Turkish Van",
+          "registryId": "Turkish Van",
+          "status": "listed"
+        }
+      ]
+    },
+    "fife": {
+      "source": "https://fifeweb.org/cats/breeds/",
+      "count": 50,
+      "breeds": [
+        {
+          "name": "Exotic",
+          "registryId": "EXO",
+          "status": "recognized"
+        },
+        {
+          "name": "Persian",
+          "registryId": "PER",
+          "status": "recognized"
+        },
+        {
+          "name": "Ragdoll",
+          "registryId": "RAG",
+          "status": "recognized"
+        },
+        {
+          "name": "Sacred Birman",
+          "registryId": "SBI",
+          "status": "recognized"
+        },
+        {
+          "name": "Turkish Van",
+          "registryId": "TUV",
+          "status": "recognized"
+        },
+        {
+          "name": "American Curl Longhair",
+          "registryId": "ACL",
+          "status": "recognized"
+        },
+        {
+          "name": "American Curl Shorthair",
+          "registryId": "ACS",
+          "status": "recognized"
+        },
+        {
+          "name": "LaPerm Longhair",
+          "registryId": "LPL",
+          "status": "recognized"
+        },
+        {
+          "name": "LaPerm Shorthair",
+          "registryId": "LPS",
+          "status": "recognized"
+        },
+        {
+          "name": "Maine Coon",
+          "registryId": "MCO",
+          "status": "recognized"
+        },
+        {
+          "name": "Neva Masquerade",
+          "registryId": "NEM",
+          "status": "recognized"
+        },
+        {
+          "name": "Norwegian Forest Cat",
+          "registryId": "NFO",
+          "status": "recognized"
+        },
+        {
+          "name": "Siberian",
+          "registryId": "SIB",
+          "status": "recognized"
+        },
+        {
+          "name": "Turkish Angora",
+          "registryId": "TUA",
+          "status": "recognized"
+        },
+        {
+          "name": "Bengal",
+          "registryId": "BEN",
+          "status": "recognized"
+        },
+        {
+          "name": "British Longhair",
+          "registryId": "BLH",
+          "status": "recognized"
+        },
+        {
+          "name": "Burmilla",
+          "registryId": "BML",
+          "status": "recognized"
+        },
+        {
+          "name": "British Shorthair",
+          "registryId": "BSH",
+          "status": "recognized"
+        },
+        {
+          "name": "Burmese",
+          "registryId": "BUR",
+          "status": "recognized"
+        },
+        {
+          "name": "Chartreux",
+          "registryId": "CHA",
+          "status": "recognized"
+        },
+        {
+          "name": "Cymric",
+          "registryId": "CYM",
+          "status": "recognized"
+        },
+        {
+          "name": "European",
+          "registryId": "EUR",
+          "status": "recognized"
+        },
+        {
+          "name": "Kurilean Bobtail Longhair",
+          "registryId": "KBL",
+          "status": "recognized"
+        },
+        {
+          "name": "Kurilean Bobtail Shorthair",
+          "registryId": "KBS",
+          "status": "recognized"
+        },
+        {
+          "name": "Korat",
+          "registryId": "KOR",
+          "status": "recognized"
+        },
+        {
+          "name": "Manx",
+          "registryId": "MAN",
+          "status": "recognized"
+        },
+        {
+          "name": "Egyptian Mau",
+          "registryId": "MAU",
+          "status": "recognized"
+        },
+        {
+          "name": "Ocicat",
+          "registryId": "OCI",
+          "status": "recognized"
+        },
+        {
+          "name": "Singapura",
+          "registryId": "SIN",
+          "status": "recognized"
+        },
+        {
+          "name": "Snowshoe",
+          "registryId": "SNO",
+          "status": "recognized"
+        },
+        {
+          "name": "Sokoke",
+          "registryId": "SOK",
+          "status": "recognized"
+        },
+        {
+          "name": "Selkirk Rex Longhair",
+          "registryId": "SRL",
+          "status": "recognized"
+        },
+        {
+          "name": "Selkirk Rex Shorthair",
+          "registryId": "SRS",
+          "status": "recognized"
+        },
+        {
+          "name": "Abyssinian",
+          "registryId": "ABY",
+          "status": "recognized"
+        },
+        {
+          "name": "Balinese",
+          "registryId": "BAL",
+          "status": "recognized"
+        },
+        {
+          "name": "Cornish Rex",
+          "registryId": "CRX",
+          "status": "recognized"
+        },
+        {
+          "name": "Devon Rex",
+          "registryId": "DRX",
+          "status": "recognized"
+        },
+        {
+          "name": "Don Sphynx",
+          "registryId": "DSP",
+          "status": "recognized"
+        },
+        {
+          "name": "German Rex",
+          "registryId": "GRX",
+          "status": "recognized"
+        },
+        {
+          "name": "Japanese Bobtail Shorthair",
+          "registryId": "JBS",
+          "status": "recognized"
+        },
+        {
+          "name": "Oriental Longhair",
+          "registryId": "OLH",
+          "status": "recognized"
+        },
+        {
+          "name": "Oriental Shorthair",
+          "registryId": "OSH",
+          "status": "recognized"
+        },
+        {
+          "name": "Peterbald",
+          "registryId": "PEB",
+          "status": "recognized"
+        },
+        {
+          "name": "Russian Blue",
+          "registryId": "RUS",
+          "status": "recognized"
+        },
+        {
+          "name": "Siamese",
+          "registryId": "SIA",
+          "status": "recognized"
+        },
+        {
+          "name": "Somali",
+          "registryId": "SOM",
+          "status": "recognized"
+        },
+        {
+          "name": "Sphynx",
+          "registryId": "SPH",
+          "status": "recognized"
+        },
+        {
+          "name": "Thai",
+          "registryId": "THA",
+          "status": "recognized"
+        },
+        {
+          "name": "Bombay",
+          "registryId": "BOM",
+          "status": "preliminary"
+        },
+        {
+          "name": "Lykoi",
+          "registryId": "LYO",
+          "status": "preliminary"
+        }
+      ]
+    },
+    "gccf": {
+      "source": "https://www.gccfcats.org/breeding-cats/stats-and-policies/",
+      "count": 40,
+      "note": "GCCF reports 40 recognized breeds; used as a supplementary count check because its public page does not expose a stable breed-name index.",
+      "breeds": []
+    }
+  }
+}

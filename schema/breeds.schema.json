@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://breed-reference.local/schema/breeds.schema.json",
+  "title": "Species Breed List",
+  "type": "object",
+  "required": ["schemaVersion", "species", "sources", "breeds"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "species": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "breeds": { "type": "array", "items": { "$ref": "#/$defs/breed" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "retrievedAt": { "type": "string", "format": "date" },
+        "note": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "breed": {
+      "type": "object",
+      "required": ["id", "name", "slug"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+:[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "externalIds": {
+          "type": "object",
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "slug"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+              "facts": { "type": "object" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "facts": { "type": "object", "additionalProperties": true },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

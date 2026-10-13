@@ -1,0 +1,25 @@
+{
+  "$schema": "./schema/catalog.schema.json",
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-13",
+  "species": [
+    {
+      "id": "cat",
+      "name": "Domestic Cat",
+      "scientificName": "Felis catus",
+      "breedCount": 71,
+      "metadata": "species/cat/species.json",
+      "breeds": "species/cat/breeds.json",
+      "list": "lists/cat-breeds.txt"
+    },
+    {
+      "id": "dog",
+      "name": "Domestic Dog",
+      "scientificName": "Canis lupus familiaris",
+      "breedCount": 439,
+      "metadata": "species/dog/species.json",
+      "breeds": "species/dog/breeds.json",
+      "list": "lists/dog-breeds.txt"
+    }
+  ]
+}

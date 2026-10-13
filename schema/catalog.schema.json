@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://breed-reference.local/schema/catalog.schema.json",
+  "title": "Breed Reference Catalog",
+  "type": "object",
+  "required": ["schemaVersion", "updatedAt", "species"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "updatedAt": { "type": "string", "format": "date" },
+    "species": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "scientificName", "breedCount", "metadata", "breeds", "list"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string", "minLength": 1 },
+          "scientificName": { "type": "string", "minLength": 1 },
+          "breedCount": { "type": "integer", "minimum": 0 },
+          "metadata": { "type": "string", "minLength": 1 },
+          "breeds": { "type": "string", "minLength": 1 },
+          "list": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

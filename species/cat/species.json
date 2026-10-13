@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema/species.schema.json",
+  "id": "cat",
+  "name": "Domestic Cat",
+  "scientificName": "Felis catus"
+}

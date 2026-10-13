@@ -1,0 +1,22 @@
+{
+  "name": "breed-reference",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A species-neutral catalog of canonical animal breed names and registry recognition data.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "audit:cats": "node scripts/audit-cat-registries.mjs",
+    "audit:dogs": "node scripts/audit-dog-registries.mjs",
+    "generate": "node scripts/generate-static-lists.mjs",
+    "test": "npm run validate",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  }
+}
