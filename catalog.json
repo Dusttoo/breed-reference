@@ -19,7 +19,10 @@
       "breedCount": 439,
       "metadata": "species/dog/species.json",
       "breeds": "species/dog/breeds.json",
-      "list": "lists/dog-breeds.txt"
+      "list": "lists/dog-breeds.txt",
+      "classifications": "species/dog/classifications.json",
+      "taxonomyCount": 1,
+      "classificationMembershipCount": 292
     }
   ]
 }

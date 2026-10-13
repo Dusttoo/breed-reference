@@ -11,6 +11,12 @@ For quick copying, use the plain-text lists:
 Each file contains one alphabetically sorted display name per line. The JSON
 catalogs provide stable IDs, URL slugs, aliases, and registry recognition data.
 
+Registry classifications are separate, versioned assertions. They are not an
+intrinsic `breed.group` property: the same breed can belong to different groups
+in different registry systems. The first classification release contains the
+American Kennel Club's seven recognized groups, Miscellaneous Class, and
+Foundation Stock Service classifications for 292 canonical dog records.
+
 The catalog compiles dog and cat breed names from major public breed registries.
 It does not claim that one registry's definition of “every breed” is universal.
 A breed can be recognized by one organization and treated as a variety,
@@ -35,6 +41,7 @@ lists/
 schema/
   breeds.schema.json
   catalog.schema.json
+  classifications.schema.json
   species.schema.json
 species/
   cat/
@@ -42,12 +49,14 @@ species/
     species.json
   dog/
     breeds.json
+    classifications.json
     species.json
 scripts/
   audit-cat-registries.mjs
   audit-dog-registries.mjs
   reconcile-cat-catalog.mjs
   reconcile-dog-catalog.mjs
+  generate-akc-classifications.mjs
   validate.mjs
 research/
   dog-registry-audit-2026-10-13.md
@@ -59,6 +68,19 @@ and a list of breed records in `breeds.json`. Consumers should use `id` as the
 stable identifier, `slug` in URLs and machine interfaces, and `name` for the
 default display label.
 
+An optional `classifications` path on a species catalog entry points to a
+classification document containing:
+
+- versioned taxonomies owned by a registry or other authority;
+- categories within each taxonomy, including optional parent categories;
+- memberships linking canonical breed IDs to categories;
+- source provenance and effective dates;
+- `current`, `historical`, or `pending-recognition` status.
+
+Applications should join classifications through `breedId`, `taxonomyId`, and
+`categoryId`. Category names and memberships may change when a registry changes
+its system; canonical breed identity does not.
+
 Breed records are intentionally small today. The schema already permits:
 
 - alternate names in `aliases`;
@@ -67,9 +89,13 @@ Breed records are intentionally small today. The schema already permits:
 - extensible, namespaced data in `facts`;
 - record-level source citations in `sources`.
 
-Facts should use a stable namespace such as `physical`, `temperament`,
-`health`, or `registryRecognition`. New species get a new directory and one
-entry in `catalog.json`; no dog- or cat-specific shape is required.
+Canonical facts must be objective and tied to authoritative provenance. The
+catalog currently uses `facts.registryRecognition`; future additions may cover
+official names, origin assertions, and authoritative breed relationships.
+Subjective temperament, suitability, popularity, expected-health, and
+“good with children” assessments do not belong in this reference. New species
+get a new directory and one entry in `catalog.json`; no dog- or cat-specific
+shape is required.
 
 ## Registry methodology
 
@@ -84,20 +110,27 @@ Run the audit scripts to refresh the raw snapshots. Run the reconciliation
 scripts without `--write` to review proposed catalogs under `research/`, or
 with `--write` to update the live species files. Review registry changes before
 committing generated output because registry pages and taxonomies can change.
+For AKC classifications, the audit preserves the classification slug with each
+registry record and `npm run generate:classifications` resolves registry IDs to
+canonical breed IDs. Other registries should receive separate taxonomies even
+when category names look similar.
 
 ## Validation
 
 Run:
 
 ```sh
-npm install
+npm ci
 npm test
 ```
 
 The validator applies the JSON Schemas and checks file references, counts,
 identifiers, slugs, sort order, uniqueness, and exact agreement between each
 JSON catalog and its generated text list. Run `npm run generate` after changing
-breed names or membership.
+breed names. Classification validation also checks taxonomy, category, parent,
+breed and membership references; hierarchy cycles; status/date rules; sort
+order; and catalog counts. Run `npm run generate:classifications` after
+refreshing the AKC audit snapshot.
 
 The catalog keeps one `Saint Bernard` record with `St. Bernard` as an alias and
 represents Standard, Miniature, and Toy Poodles as separate breed records.

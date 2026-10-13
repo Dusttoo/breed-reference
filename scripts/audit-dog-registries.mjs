@@ -69,7 +69,7 @@ async function fetchAkc() {
       const html = await get(url, true);
       if (html === null) break;
       const pageRecords = [...html.matchAll(/data-title="([^"]+)"[\s\S]*?data-id="(\d+)"/g)]
-        .map((match) => ({ name: decodeHtml(match[1]), registryId: match[2], status }));
+        .map((match) => ({ name: decodeHtml(match[1]), registryId: match[2], status, classification: group }));
       if (pageRecords.length === 0) break;
       const before = records.length;
       for (const record of pageRecords) records.push(record);
