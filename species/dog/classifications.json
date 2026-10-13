@@ -1,0 +1,4253 @@
+{
+  "$schema": "../../schema/classifications.schema.json",
+  "schemaVersion": 1,
+  "species": "dog",
+  "taxonomies": [
+    {
+      "id": "dog:akc-breed-classification",
+      "name": "AKC Breed Classification",
+      "version": "2026-10-13",
+      "authority": {
+        "id": "akc",
+        "name": "American Kennel Club",
+        "url": "https://www.akc.org/"
+      },
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/",
+          "retrievedAt": "2026-10-13",
+          "note": "Seven recognized breed groups plus the Miscellaneous Class and Foundation Stock Service program."
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "dog:akc-breed-classification:foundation-stock-service",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Foundation Stock Service",
+      "slug": "foundation-stock-service",
+      "categoryType": "program",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:herding",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Herding Group",
+      "slug": "herding",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Hound Group",
+      "slug": "hound",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:miscellaneous-class",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Miscellaneous Class",
+      "slug": "miscellaneous-class",
+      "categoryType": "class",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:non-sporting",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Non-Sporting Group",
+      "slug": "non-sporting",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:sporting",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Sporting Group",
+      "slug": "sporting",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Terrier Group",
+      "slug": "terrier",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:toy",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Toy Group",
+      "slug": "toy",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "dog:akc-breed-classification:working",
+      "taxonomyId": "dog:akc-breed-classification",
+      "name": "Working Group",
+      "slug": "working",
+      "categoryType": "group",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    }
+  ],
+  "memberships": [
+    {
+      "breedId": "dog:affenpinscher",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 23195",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:afghan-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23209",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:airedale-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23224",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:akita",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 116964",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:akita",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23239",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:alaskan-klee-kai",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 121466",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:alaskan-malamute",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23249",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-bulldog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 96298",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-english-coonhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23264",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-eskimo-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 23278",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-foxhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23292",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-hairless-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23307",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-leopard-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23322",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-staffordshire-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23324",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:american-water-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 23339",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:anatolian-shepherd-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23354",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:appenzeller-sennenhund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23363",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:australian-cattle-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23364",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:australian-kelpie",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23377",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:australian-shepherd",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23378",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:australian-stumpy-tail-cattle-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 57316",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:australian-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23399",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:azawakh",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23414",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:barbado-da-terceira",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 123084",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:barbet",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 23417",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:basenji",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23420",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:basset-fauve-de-bretagne",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23435",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:basset-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23436",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bavarian-mountain-scent-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23451",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:beagle",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23453",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bearded-collie",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23474",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:beauceron",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23489",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bedlington-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23504",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:belgian-laekenois",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23519",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:belgian-malinois",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23522",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:belgian-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23537",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:belgian-tervuren",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23552",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bergamasco-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23567",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:berger-picard",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23569",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bernese-mountain-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23582",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bichon-frise",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 23597",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:biewer-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 23608",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:black-and-tan-coonhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23610",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:black-russian-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23622",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bloodhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23636",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:blue-picardy-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 192757",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bluetick-coonhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23651",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:boerboel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23666",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bohemian-shepherd",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 81748",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bolognese",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 23681",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:border-collie",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23684",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:border-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23699",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:borzoi",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 23714",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:boston-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 23729",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bouvier-des-ardennes",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 192754",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bouvier-des-flandres",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23743",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:boxer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23758",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:boykin-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 23779",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bracco-italiano",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 23794",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:braque-du-bourbonnais",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23797",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:braque-francais-de-petite-taille",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23799",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:braque-saint-germain",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 173124",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:brazilian-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 173113",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:briard",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23800",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:brittany",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 23814",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:broholmer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23829",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:brussels-griffon",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 23832",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bull-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23840",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bulldog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 23854",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:bullmastiff",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23875",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:cairn-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23890",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:calupoh",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 200502",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:canaan-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23905",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:canadian-eskimo-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 198099",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:cane-corso",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 23914",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:cardigan-welsh-corgi",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 23929",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:carolina-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23944",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:catahoula-leopard-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23946",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:caucasian-shepherd-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23949",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:cavalier-king-charles-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 23951",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:central-asian-shepherd-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 23972",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:cesky-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 23975",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:chesapeake-bay-retriever",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 23990",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:chihuahua",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 24001",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:chinese-crested",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 24016",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:chinese-shar-pei",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24031",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:chinook",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24045",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:chow-chow",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24060",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:cirneco-delletna",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24075",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:clumber-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24077",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:cocker-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24092",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:collie",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 24112",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:coton-de-tulear",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24132",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:croatian-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 48326",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:curly-coated-retriever",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24146",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:czechoslovakian-vlciak",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 24160",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:dachshund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24162",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:dalmatian",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24183",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:dandie-dinmont-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 24198",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:danish-swedish-farmdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24211",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:deutscher-wachtelhund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24213",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:doberman-pinscher",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24216",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:dogo-argentino",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24238",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:dogue-de-bordeaux",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24241",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:drentsche-patrijshond",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24255",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:drever",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24257",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:dutch-shepherd",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 24259",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:english-cocker-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24262",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:english-foxhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24277",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:english-setter",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24291",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:english-springer-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24306",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:english-toy-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 24321",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:entlebucher-mountain-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 24336",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:estrela-mountain-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24351",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:eurasier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24353",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:field-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24355",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:finnish-lapphund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 24370",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:finnish-spitz",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24380",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:flat-coated-retriever",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24395",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:french-bulldog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24410",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:french-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24431",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:german-longhaired-pointer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24433",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:german-pinscher",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24436",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:german-shepherd",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 24451",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:german-shorthaired-pointer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24471",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:german-spitz",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 24487",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:german-wirehaired-pointer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24489",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:giant-schnauzer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24504",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:glen-of-imaal-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 24519",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:golden-retriever",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24534",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:gordon-setter",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24555",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:grand-basset-griffon-vendeen",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24570",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:great-dane",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24572",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:great-pyrenees",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24593",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:greater-swiss-mountain-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24603",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:greyhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24618",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:hamiltonstovare",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24633",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:hanoverian-scenthound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24635",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:harrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24638",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:havanese",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 24653",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:hokkaido",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24667",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:hovawart",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24669",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:ibizan-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24672",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:icelandic-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 24687",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:irish-red-and-white-setter",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24701",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:irish-setter",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24715",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:irish-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 24729",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:irish-water-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24744",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:irish-wolfhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 24759",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:italian-greyhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 24774",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:jagdterrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24789",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:japanese-chin",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 24790",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:japanese-spitz",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 81150",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:japanese-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 119969",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:kai-ken",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 24806",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:karelian-bear-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24808",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:keeshond",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24810",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:kerry-blue-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 24825",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:kishu-ken",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24839",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:komondor",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24841",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:korean-jindo-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24804",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:kromfohrlander",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24856",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:kuvasz",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24858",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:labrador-retriever",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24873",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:lagotto-romagnolo",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 24894",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:lakeland-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 24908",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:lancashire-heeler",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 24923",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:lapponian-herder",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 24925",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:large-munsterlander",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 175442",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:leonberger",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24927",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:lhasa-apso",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24942",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:lowchen",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 24956",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:maltese",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 24958",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:manchester-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 24973",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:manchester-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 49157",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:mastiff",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 24987",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:miniature-american-shepherd",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25002",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:miniature-bull-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25017",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:miniature-pinscher",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25029",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:miniature-poodle",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 80441",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:miniature-schnauzer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25043",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:mountain-cur",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25059",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:mudi",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25061",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:neapolitan-mastiff",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25063",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:nederlandse-kooikerhondje",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25078",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:newfoundland",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25081",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:norfolk-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25096",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:norrbottenspets",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 25111",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:norwegian-buhund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25114",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:norwegian-elkhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25129",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:norwegian-lundehund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 25139",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:norwich-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25153",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:nova-scotia-duck-tolling-retriever",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25167",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:old-english-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25181",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:otterhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25195",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:papillon",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25210",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:parson-russell-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25221",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pekingese",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25235",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pembroke-welsh-corgi",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25249",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:peruvian-inca-orchid",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 25267",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:petit-basset-griffon-vendeen",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25270",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pharaoh-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25272",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:plott-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25282",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pointer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25297",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:polish-lowland-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25310",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pomeranian",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25321",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pont-audemer-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 173120",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:porcelaine",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25357",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:portuguese-podengo",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 25359",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:portuguese-podengo-pequeno",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25367",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:portuguese-pointer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25375",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:portuguese-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25377",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:portuguese-water-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25378",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:presa-canario",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25265",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pudelpointer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25389",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pug",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25390",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:puli",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25405",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pumi",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25420",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pyrenean-mastiff",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 25435",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:pyrenean-shepherd",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25437",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:rafeiro-do-alentejo",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25452",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:rat-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25453",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:redbone-coonhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25467",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:rhodesian-ridgeback",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25476",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:romanian-carpathian-shepherd",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 141646",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:romanian-mioritic-shepherd-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 57357",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:rottweiler",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25491",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:russell-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25511",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:russian-toy",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25525",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:russian-tsvetnaya-bolonka",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25527",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:saint-bernard",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25529",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:saluki",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25544",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:samoyed",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25559",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:schapendoes",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25573",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:schipperke",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 25575",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:scottish-deerhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25590",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:scottish-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25604",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:sealyham-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25619",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:segugio-italiano",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 59390",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:shetland-sheepdog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25634",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:shiba-inu",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 25649",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:shih-tzu",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25664",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:shikoku",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25685",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:siberian-husky",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25687",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:silky-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25707",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:skye-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25721",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:sloughi",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25735",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:slovakian-wirehaired-pointer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 57382",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:slovensky-cuvac",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25748",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:slovensky-kopov",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25750",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:small-munsterlander",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 25752",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:smooth-fox-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25754",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:soft-coated-wheaten-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25767",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:spanish-mastiff",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25779",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:spanish-water-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25780",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:spinone-italiano",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25794",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:stabyhoun",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25808",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:staffordshire-bull-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25810",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:standard-poodle",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 25336",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:standard-schnauzer",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25825",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:sussex-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25839",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:swedish-lapphund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25849",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:swedish-vallhund",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:herding",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/herding/",
+          "reference": "AKC breed ID 25851",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:taiwan-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25860",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:teddy-roosevelt-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25862",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:thai-bangkaew-dog",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 175445",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:thai-ridgeback",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25864",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:tibetan-mastiff",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:working",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/working/",
+          "reference": "AKC breed ID 25866",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:tibetan-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 25880",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:tibetan-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 25894",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:tornjak",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25909",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:tosa",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25911",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:toy-fox-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 25912",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:toy-poodle",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 49148",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:transylvanian-hound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25926",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:treeing-tennessee-brindle",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 25928",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:treeing-walker-coonhound",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 25930",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:vizsla",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25939",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:volpino-italiano",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 125262",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:weimaraner",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25953",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:welsh-springer-spaniel",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 25967",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:welsh-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25977",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:west-highland-white-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 25991",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:wetterhoun",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 96258",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:whippet",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:hound",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/hound/",
+          "reference": "AKC breed ID 26002",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:wire-fox-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:terrier",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/terrier/",
+          "reference": "AKC breed ID 26018",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:wirehaired-pointing-griffon",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 26043",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:wirehaired-vizsla",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/sporting/",
+          "reference": "AKC breed ID 26058",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:working-kelpie",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:foundation-stock-service",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/foundation-stock-service/",
+          "reference": "AKC breed ID 26073",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:xoloitzcuintli",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:non-sporting",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/non-sporting/",
+          "reference": "AKC breed ID 26075",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:yakutian-laika",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:miscellaneous-class",
+      "status": "pending-recognition",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/miscellaneous-class/",
+          "reference": "AKC breed ID 26089",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "breedId": "dog:yorkshire-terrier",
+      "taxonomyId": "dog:akc-breed-classification",
+      "categoryId": "dog:akc-breed-classification:toy",
+      "status": "current",
+      "provenance": [
+        {
+          "source": "American Kennel Club",
+          "url": "https://www.akc.org/dog-breeds/toy/",
+          "reference": "AKC breed ID 26092",
+          "retrievedAt": "2026-10-13"
+        }
+      ]
+    }
+  ]
+}

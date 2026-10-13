@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.0 — 2026-10-13
+
+- Added a species-neutral classification contract for versioned taxonomies,
+  hierarchical categories, breed memberships, provenance, effective dates,
+  and current, historical, or pending-recognition status.
+- Published the AKC breed classification snapshot with nine categories and 292
+  memberships while keeping classifications separate from breed identity.
+- Extended validation to check classification references, hierarchy cycles,
+  uniqueness, status/date rules, deterministic ordering, and catalog counts.
+- Documented objective-data boundaries and excluded subjective temperament,
+  suitability, popularity, health-outcome, and family-fit claims.
+
 ## 1.0.0 — 2026-10-13
 
 - Published the initial species-neutral catalog.

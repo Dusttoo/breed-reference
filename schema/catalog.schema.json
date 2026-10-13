@@ -20,7 +20,15 @@
           "breedCount": { "type": "integer", "minimum": 0 },
           "metadata": { "type": "string", "minLength": 1 },
           "breeds": { "type": "string", "minLength": 1 },
-          "list": { "type": "string", "minLength": 1 }
+          "list": { "type": "string", "minLength": 1 },
+          "classifications": { "type": "string", "minLength": 1 },
+          "taxonomyCount": { "type": "integer", "minimum": 0 },
+          "classificationMembershipCount": { "type": "integer", "minimum": 0 }
+        },
+        "dependentRequired": {
+          "classifications": ["taxonomyCount", "classificationMembershipCount"],
+          "taxonomyCount": ["classifications", "classificationMembershipCount"],
+          "classificationMembershipCount": ["classifications", "taxonomyCount"]
         },
         "additionalProperties": false
       }

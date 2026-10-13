@@ -8,1462 +8,1754 @@
         {
           "name": "Affenpinscher",
           "registryId": "23195",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Afghan Hound",
           "registryId": "23209",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Airedale Terrier",
           "registryId": "23224",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Akita",
           "registryId": "23239",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Alaskan Klee Kai",
           "registryId": "121466",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Alaskan Malamute",
           "registryId": "23249",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "American Bulldog",
           "registryId": "96298",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "American English Coonhound",
           "registryId": "23264",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "American Eskimo Dog",
           "registryId": "23278",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "American Foxhound",
           "registryId": "23292",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "American Hairless Terrier",
           "registryId": "23307",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "American Leopard Hound",
           "registryId": "23322",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "American Staffordshire Terrier",
           "registryId": "23324",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "American Water Spaniel",
           "registryId": "23339",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Anatolian Shepherd Dog",
           "registryId": "23354",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Appenzeller Sennenhund",
           "registryId": "23363",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Australian Cattle Dog",
           "registryId": "23364",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Australian Kelpie",
           "registryId": "23377",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Australian Shepherd",
           "registryId": "23378",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Australian Stumpy Tail Cattle Dog",
           "registryId": "57316",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Australian Terrier",
           "registryId": "23399",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Azawakh",
           "registryId": "23414",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Barbado da Terceira",
           "registryId": "123084",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Barbet",
           "registryId": "23417",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Basenji",
           "registryId": "23420",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Basset Fauve de Bretagne",
           "registryId": "23435",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Basset Hound",
           "registryId": "23436",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Bavarian Mountain Scent Hound",
           "registryId": "23451",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Beagle",
           "registryId": "23453",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Bearded Collie",
           "registryId": "23474",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Beauceron",
           "registryId": "23489",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Bedlington Terrier",
           "registryId": "23504",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Belgian Laekenois",
           "registryId": "23519",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Belgian Malinois",
           "registryId": "23522",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Belgian Sheepdog",
           "registryId": "23537",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Belgian Tervuren",
           "registryId": "23552",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Bergamasco Sheepdog",
           "registryId": "23567",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Berger Picard",
           "registryId": "23569",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Bernese Mountain Dog",
           "registryId": "23582",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Bichon Frise",
           "registryId": "23597",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Biewer Terrier",
           "registryId": "23608",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Black and Tan Coonhound",
           "registryId": "23610",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Black Russian Terrier",
           "registryId": "23622",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Bloodhound",
           "registryId": "23636",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Blue Picardy Spaniel",
           "registryId": "192757",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Bluetick Coonhound",
           "registryId": "23651",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Boerboel",
           "registryId": "23666",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Bohemian Shepherd",
           "registryId": "81748",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Bolognese",
           "registryId": "23681",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Border Collie",
           "registryId": "23684",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Border Terrier",
           "registryId": "23699",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Borzoi",
           "registryId": "23714",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Boston Terrier",
           "registryId": "23729",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Bouvier des Ardennes",
           "registryId": "192754",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Bouvier des Flandres",
           "registryId": "23743",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Boxer",
           "registryId": "23758",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Boykin Spaniel",
           "registryId": "23779",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Bracco Italiano",
           "registryId": "23794",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Braque du Bourbonnais",
           "registryId": "23797",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Braque Francais Pyrenean",
           "registryId": "23799",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Braque Saint-Germain",
           "registryId": "173124",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Brazilian Terrier",
           "registryId": "173113",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Briard",
           "registryId": "23800",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Brittany",
           "registryId": "23814",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Broholmer",
           "registryId": "23829",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Brussels Griffon",
           "registryId": "23832",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Bull Terrier",
           "registryId": "23840",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Bulldog",
           "registryId": "23854",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Bullmastiff",
           "registryId": "23875",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Cairn Terrier",
           "registryId": "23890",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Calupoh",
           "registryId": "200502",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Canaan Dog",
           "registryId": "23905",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Canadian Eskimo Dog",
           "registryId": "198099",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Cane Corso",
           "registryId": "23914",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Cardigan Welsh Corgi",
           "registryId": "23929",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Carolina Dog",
           "registryId": "23944",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Catahoula Leopard Dog",
           "registryId": "23946",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Caucasian Shepherd Dog",
           "registryId": "23949",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Cavalier King Charles Spaniel",
           "registryId": "23951",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Central Asian Shepherd Dog",
           "registryId": "23972",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Cesky Terrier",
           "registryId": "23975",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Chesapeake Bay Retriever",
           "registryId": "23990",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Chihuahua",
           "registryId": "24001",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Chinese Crested",
           "registryId": "24016",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Chinese Shar-Pei",
           "registryId": "24031",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Chinook",
           "registryId": "24045",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Chow Chow",
           "registryId": "24060",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Cirneco dell’Etna",
           "registryId": "24075",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Clumber Spaniel",
           "registryId": "24077",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Cocker Spaniel",
           "registryId": "24092",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Collie",
           "registryId": "24112",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Coton de Tulear",
           "registryId": "24132",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Croatian Sheepdog",
           "registryId": "48326",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Curly-Coated Retriever",
           "registryId": "24146",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Czechoslovakian Vlciak",
           "registryId": "24160",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Dachshund",
           "registryId": "24162",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Dalmatian",
           "registryId": "24183",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Dandie Dinmont Terrier",
           "registryId": "24198",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Danish-Swedish Farmdog",
           "registryId": "24211",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Deutscher Wachtelhund",
           "registryId": "24213",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Doberman Pinscher",
           "registryId": "24216",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Dogo Argentino",
           "registryId": "24238",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Dogue de Bordeaux",
           "registryId": "24241",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Drentsche Patrijshond",
           "registryId": "24255",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Drever",
           "registryId": "24257",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Dutch Shepherd",
           "registryId": "24259",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "English Cocker Spaniel",
           "registryId": "24262",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "English Foxhound",
           "registryId": "24277",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "English Setter",
           "registryId": "24291",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "English Springer Spaniel",
           "registryId": "24306",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "English Toy Spaniel",
           "registryId": "24321",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Entlebucher Mountain Dog",
           "registryId": "24336",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Estrela Mountain Dog",
           "registryId": "24351",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Eurasier",
           "registryId": "24353",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Field Spaniel",
           "registryId": "24355",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Finnish Lapphund",
           "registryId": "24370",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Finnish Spitz",
           "registryId": "24380",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Flat-Coated Retriever",
           "registryId": "24395",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "French Bulldog",
           "registryId": "24410",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "French Spaniel",
           "registryId": "24431",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "German Longhaired Pointer",
           "registryId": "24433",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "German Pinscher",
           "registryId": "24436",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "German Shepherd Dog",
           "registryId": "24451",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "German Shorthaired Pointer",
           "registryId": "24471",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "German Spitz",
           "registryId": "24487",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "German Wirehaired Pointer",
           "registryId": "24489",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Giant Schnauzer",
           "registryId": "24504",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Glen of Imaal Terrier",
           "registryId": "24519",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Golden Retriever",
           "registryId": "24534",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Gordon Setter",
           "registryId": "24555",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Grand Basset Griffon Vendéen",
           "registryId": "24570",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Great Dane",
           "registryId": "24572",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Great Pyrenees",
           "registryId": "24593",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Greater Swiss Mountain Dog",
           "registryId": "24603",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Greyhound",
           "registryId": "24618",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Hamiltonstovare",
           "registryId": "24633",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Hanoverian Scenthound",
           "registryId": "24635",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Harrier",
           "registryId": "24638",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Havanese",
           "registryId": "24653",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Hokkaido",
           "registryId": "24667",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Hovawart",
           "registryId": "24669",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Ibizan Hound",
           "registryId": "24672",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Icelandic Sheepdog",
           "registryId": "24687",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Irish Red and White Setter",
           "registryId": "24701",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Irish Setter",
           "registryId": "24715",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Irish Terrier",
           "registryId": "24729",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Irish Water Spaniel",
           "registryId": "24744",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Irish Wolfhound",
           "registryId": "24759",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Italian Greyhound",
           "registryId": "24774",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Jagdterrier",
           "registryId": "24789",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Japanese Akitainu",
           "registryId": "116964",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Japanese Chin",
           "registryId": "24790",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Japanese Spitz",
           "registryId": "81150",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Japanese Terrier",
           "registryId": "119969",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Kai Ken",
           "registryId": "24806",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Karelian Bear Dog",
           "registryId": "24808",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Keeshond",
           "registryId": "24810",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Kerry Blue Terrier",
           "registryId": "24825",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Kishu Ken",
           "registryId": "24839",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Komondor",
           "registryId": "24841",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Korean Jindo Dog",
           "registryId": "24804",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Kromfohrlander",
           "registryId": "24856",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Kuvasz",
           "registryId": "24858",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Labrador Retriever",
           "registryId": "24873",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Lagotto Romagnolo",
           "registryId": "24894",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Lakeland Terrier",
           "registryId": "24908",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Lancashire Heeler",
           "registryId": "24923",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Lapponian Herder",
           "registryId": "24925",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Large Munsterlander",
           "registryId": "175442",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Leonberger",
           "registryId": "24927",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Lhasa Apso",
           "registryId": "24942",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Löwchen",
           "registryId": "24956",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Maltese",
           "registryId": "24958",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Manchester Terrier (Standard)",
           "registryId": "24973",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Manchester Terrier (Toy)",
           "registryId": "49157",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Mastiff",
           "registryId": "24987",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Miniature American Shepherd",
           "registryId": "25002",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Miniature Bull Terrier",
           "registryId": "25017",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Miniature Pinscher",
           "registryId": "25029",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Miniature Schnauzer",
           "registryId": "25043",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Mountain Cur",
           "registryId": "25059",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Mudi",
           "registryId": "25061",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Neapolitan Mastiff",
           "registryId": "25063",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Nederlandse Kooikerhondje",
           "registryId": "25078",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Newfoundland",
           "registryId": "25081",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Norfolk Terrier",
           "registryId": "25096",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Norrbottenspets",
           "registryId": "25111",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Norwegian Buhund",
           "registryId": "25114",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Norwegian Elkhound",
           "registryId": "25129",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Norwegian Lundehund",
           "registryId": "25139",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Norwich Terrier",
           "registryId": "25153",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Nova Scotia Duck Tolling Retriever",
           "registryId": "25167",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Old English Sheepdog",
           "registryId": "25181",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Otterhound",
           "registryId": "25195",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Papillon",
           "registryId": "25210",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Parson Russell Terrier",
           "registryId": "25221",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Pekingese",
           "registryId": "25235",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Pembroke Welsh Corgi",
           "registryId": "25249",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Peruvian Inca Orchid",
           "registryId": "25267",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Petit Basset Griffon Vendéen",
           "registryId": "25270",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Pharaoh Hound",
           "registryId": "25272",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Plott Hound",
           "registryId": "25282",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Pointer",
           "registryId": "25297",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Polish Lowland Sheepdog",
           "registryId": "25310",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Pomeranian",
           "registryId": "25321",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Pont-Audemer Spaniel",
           "registryId": "173120",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Poodle (Miniature)",
           "registryId": "80441",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Poodle (Standard)",
           "registryId": "25336",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Poodle (Toy)",
           "registryId": "49148",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Porcelaine",
           "registryId": "25357",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Portuguese Podengo",
           "registryId": "25359",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Portuguese Podengo Pequeno",
           "registryId": "25367",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Portuguese Pointer",
           "registryId": "25375",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Portuguese Sheepdog",
           "registryId": "25377",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Portuguese Water Dog",
           "registryId": "25378",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Presa Canario",
           "registryId": "25265",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Pudelpointer",
           "registryId": "25389",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Pug",
           "registryId": "25390",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Puli",
           "registryId": "25405",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Pumi",
           "registryId": "25420",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Pyrenean Mastiff",
           "registryId": "25435",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Pyrenean Shepherd",
           "registryId": "25437",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Rafeiro do Alentejo",
           "registryId": "25452",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Rat Terrier",
           "registryId": "25453",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Redbone Coonhound",
           "registryId": "25467",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Rhodesian Ridgeback",
           "registryId": "25476",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Romanian Carpathian Shepherd",
           "registryId": "141646",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Romanian Mioritic Shepherd Dog",
           "registryId": "57357",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Rottweiler",
           "registryId": "25491",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Russell Terrier",
           "registryId": "25511",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Russian Toy",
           "registryId": "25525",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Russian Tsvetnaya Bolonka",
           "registryId": "25527",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Saint Bernard",
           "registryId": "25529",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Saluki",
           "registryId": "25544",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Samoyed",
           "registryId": "25559",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Schapendoes",
           "registryId": "25573",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Schipperke",
           "registryId": "25575",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Scottish Deerhound",
           "registryId": "25590",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Scottish Terrier",
           "registryId": "25604",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Sealyham Terrier",
           "registryId": "25619",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Segugio Italiano",
           "registryId": "59390",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Shetland Sheepdog",
           "registryId": "25634",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Shiba Inu",
           "registryId": "25649",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Shih Tzu",
           "registryId": "25664",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Shikoku Ken",
           "registryId": "25685",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Siberian Husky",
           "registryId": "25687",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Silky Terrier",
           "registryId": "25707",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Skye Terrier",
           "registryId": "25721",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Sloughi",
           "registryId": "25735",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Slovakian Wirehaired Pointer",
           "registryId": "57382",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Slovensky Cuvac",
           "registryId": "25748",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Slovensky Kopov",
           "registryId": "25750",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Small Munsterlander",
           "registryId": "25752",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Smooth Fox Terrier",
           "registryId": "25754",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Soft Coated Wheaten Terrier",
           "registryId": "25767",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Spanish Mastiff",
           "registryId": "25779",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Spanish Water Dog",
           "registryId": "25780",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Spinone Italiano",
           "registryId": "25794",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Stabyhoun",
           "registryId": "25808",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Staffordshire Bull Terrier",
           "registryId": "25810",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Standard Schnauzer",
           "registryId": "25825",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Sussex Spaniel",
           "registryId": "25839",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Swedish Lapphund",
           "registryId": "25849",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Swedish Vallhund",
           "registryId": "25851",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "herding"
         },
         {
           "name": "Taiwan Dog",
           "registryId": "25860",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Teddy Roosevelt Terrier",
           "registryId": "25862",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Thai Bangkaew",
           "registryId": "175445",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Thai Ridgeback",
           "registryId": "25864",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Tibetan Mastiff",
           "registryId": "25866",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "working"
         },
         {
           "name": "Tibetan Spaniel",
           "registryId": "25880",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Tibetan Terrier",
           "registryId": "25894",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Tornjak",
           "registryId": "25909",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Tosa",
           "registryId": "25911",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Toy Fox Terrier",
           "registryId": "25912",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         },
         {
           "name": "Transylvanian Hound",
           "registryId": "25926",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Treeing Tennessee Brindle",
           "registryId": "25928",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Treeing Walker Coonhound",
           "registryId": "25930",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Vizsla",
           "registryId": "25939",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Volpino Italiano",
           "registryId": "125262",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Weimaraner",
           "registryId": "25953",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Welsh Springer Spaniel",
           "registryId": "25967",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Welsh Terrier",
           "registryId": "25977",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "West Highland White Terrier",
           "registryId": "25991",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Wetterhoun",
           "registryId": "96258",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Whippet",
           "registryId": "26002",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "hound"
         },
         {
           "name": "Wire Fox Terrier",
           "registryId": "26018",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "terrier"
         },
         {
           "name": "Wirehaired Pointing Griffon",
           "registryId": "26043",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Wirehaired Vizsla",
           "registryId": "26058",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "sporting"
         },
         {
           "name": "Working Kelpie",
           "registryId": "26073",
-          "status": "foundation-stock-service"
+          "status": "foundation-stock-service",
+          "classification": "foundation-stock-service"
         },
         {
           "name": "Xoloitzcuintli",
           "registryId": "26075",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "non-sporting"
         },
         {
           "name": "Yakutian Laika",
           "registryId": "26089",
-          "status": "miscellaneous"
+          "status": "miscellaneous",
+          "classification": "miscellaneous-class"
         },
         {
           "name": "Yorkshire Terrier",
           "registryId": "26092",
-          "status": "recognized"
+          "status": "recognized",
+          "classification": "toy"
         }
       ]
     },
