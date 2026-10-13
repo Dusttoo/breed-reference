@@ -8,7 +8,7 @@ coat, size, or national varieties as separate entries.
 ## Result
 
 - Dog catalog: 212 to 439 canonical records, adding 227 records.
-- Cat catalog: 52 to 71 canonical records, adding 19 records.
+- Cat catalog: 52 to 73 canonical records, adding 21 records.
 - Registry names, identifiers, and recognition statuses are retained in each
   record under `facts.registryRecognition`.
 - Confirmed translations and synonyms are aliases instead of duplicate records.
@@ -45,10 +45,10 @@ varieties to their canonical breed where appropriate.
 
 | Registry | Captured entries | Status breakdown |
 | --- | ---: | --- |
-| [CFA](https://cfa.org/breeds/) | 45 | 45 recognized |
-| [TICA](https://tica.org/ticas-breeds/browse-all-breeds/) | 83 | 83 public browse entries |
+| [CFA](https://cfa.org/breeds/) | 45 | 44 championship; 1 provisional |
+| [TICA](https://tica.org/ticas-breeds/browse-all-breeds/) | 83 | 81 championship browse entries; 2 Advanced New Breeds |
 | [FIFe](https://fifeweb.org/cats/breeds/) | 50 | 48 fully recognized; 2 preliminary |
-| [GCCF](https://www.gccfcats.org/breeding-cats/stats-and-policies/) | 40 | supplementary reported count |
+| [GCCF](https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/) | 46 | recognized GEMS breed codes across six show sections |
 
 TICA describes 73 recognized breeds while its browse page displays 83 entries
 because it presents several longhair, shorthair, tailed, and other variants

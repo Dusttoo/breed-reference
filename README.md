@@ -6,7 +6,7 @@ applications a shared set of identifiers without copying lists between codebases
 For quick copying, use the plain-text lists:
 
 - [`lists/dog-breeds.txt`](lists/dog-breeds.txt) — 439 dog breeds
-- [`lists/cat-breeds.txt`](lists/cat-breeds.txt) — 71 cat breeds
+- [`lists/cat-breeds.txt`](lists/cat-breeds.txt) — 73 cat breeds
 
 Each file contains one alphabetically sorted display name per line. The JSON
 catalogs provide stable IDs, URL slugs, aliases, and registry recognition data.
@@ -15,7 +15,8 @@ Registry classifications are separate, versioned assertions. They are not an
 intrinsic `breed.group` property: the same breed can belong to different groups
 in different registry systems. The first classification release contains the
 American Kennel Club's seven recognized groups, Miscellaneous Class, and
-Foundation Stock Service classifications for 292 canonical dog records.
+Foundation Stock Service classifications alongside classifications from four
+other major dog registries and four major cat registries.
 
 The catalog compiles dog and cat breed names from major public breed registries.
 It does not claim that one registry's definition of “every breed” is universal.
@@ -46,6 +47,7 @@ schema/
 species/
   cat/
     breeds.json
+    classifications.json
     species.json
   dog/
     breeds.json
@@ -56,7 +58,7 @@ scripts/
   audit-dog-registries.mjs
   reconcile-cat-catalog.mjs
   reconcile-dog-catalog.mjs
-  generate-akc-classifications.mjs
+  generate-classifications.mjs
   validate.mjs
 research/
   dog-registry-audit-2026-10-13.md
@@ -110,10 +112,13 @@ Run the audit scripts to refresh the raw snapshots. Run the reconciliation
 scripts without `--write` to review proposed catalogs under `research/`, or
 with `--write` to update the live species files. Review registry changes before
 committing generated output because registry pages and taxonomies can change.
-For AKC classifications, the audit preserves the classification slug with each
-registry record and `npm run generate:classifications` resolves registry IDs to
-canonical breed IDs. Other registries should receive separate taxonomies even
-when category names look similar.
+The audits preserve classification labels with each registry record and
+`npm run generate:classifications` resolves registry identifiers to canonical
+breed IDs. Every registry has a separate taxonomy even when category names look
+similar. The published classification coverage includes AKC, CKC, Dogs
+Australia, FCI, and UKC for dogs, and CFA, FIFe, GCCF, and TICA for cats. ABKC
+is retained as a recognition source but has no classification taxonomy because
+its public breed list does not publish a formal grouping system.
 
 ## Validation
 
@@ -130,7 +135,7 @@ JSON catalog and its generated text list. Run `npm run generate` after changing
 breed names. Classification validation also checks taxonomy, category, parent,
 breed and membership references; hierarchy cycles; status/date rules; sort
 order; and catalog counts. Run `npm run generate:classifications` after
-refreshing the AKC audit snapshot.
+refreshing either registry audit snapshot.
 
 The catalog keeps one `Saint Bernard` record with `St. Bernard` as an alias and
 represents Standard, Miniature, and Toy Poodles as separate breed records.

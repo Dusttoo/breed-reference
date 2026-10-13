@@ -22,6 +22,8 @@ function slugify(value) {
 }
 
 const overrides = new Map(Object.entries({
+  "asian longhair": "asian",
+  "asian shorthair": "asian",
   "american bobtail shorthair": "american-bobtail",
   "american curl longhair": "american-curl",
   "american curl shorthair": "american-curl",
@@ -41,6 +43,7 @@ const overrides = new Map(Object.entries({
   "kurilian bobtail longhair": "kurilian-bobtail",
   "laperm longhair": "laperm",
   "laperm shorthair": "laperm",
+  "lykoi longhair": "lykoi",
   "maine coon polydactyl": "maine-coon",
   "manx tailed": "manx",
   "minuet longhair": "minuet",
@@ -54,10 +57,13 @@ const overrides = new Map(Object.entries({
   "scottish fold longhair": "scottish-fold",
   "scottish straight longhair": "scottish-straight",
   "selkirk rex longhair": "selkirk-rex",
-  "selkirk rex shorthair": "selkirk-rex"
+  "selkirk rex shorthair": "selkirk-rex",
+  "somali longhair": "somali",
+  "somali shorthair": "somali"
 }));
 
 const preferredNames = new Map(Object.entries({
+  "asian": "Asian",
   "donskoy": "Donskoy",
   "european-shorthair": "European Shorthair",
   "kurilian-bobtail": "Kurilian Bobtail"
@@ -95,7 +101,7 @@ function ensureBreed(entry) {
   return breed;
 }
 
-for (const registry of ["cfa", "tica", "fife"]) {
+for (const registry of ["cfa", "tica", "fife", "gccf"]) {
   for (const entry of snapshot.registries[registry].breeds) {
     const breed = ensureBreed(entry);
     breed.facts ??= {};
@@ -130,7 +136,7 @@ const proposed = {
     { name: "Cat Fanciers' Association breeds", url: snapshot.registries.cfa.source, retrievedAt: snapshot.auditedAt },
     { name: "The International Cat Association breeds", url: snapshot.registries.tica.source, retrievedAt: snapshot.auditedAt },
     { name: "Federation Internationale Feline breeds", url: snapshot.registries.fife.source, retrievedAt: snapshot.auditedAt },
-    { name: "Governing Council of the Cat Fancy breed statistics", url: snapshot.registries.gccf.source, retrievedAt: snapshot.auditedAt, note: snapshot.registries.gccf.note }
+    { name: "Governing Council of the Cat Fancy GEMS codes", url: snapshot.registries.gccf.source, retrievedAt: snapshot.auditedAt, note: snapshot.registries.gccf.note }
   ],
   breeds
 };

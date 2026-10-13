@@ -9,7 +9,7 @@ const registrySources = {
   cfa: "https://cfa.org/breeds/",
   tica: "https://tica.org/ticas-breeds/browse-all-breeds/",
   fife: "https://fifeweb.org/cats/breeds/",
-  gccf: "https://www.gccfcats.org/breeding-cats/stats-and-policies/"
+  gccf: "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/"
 };
 
 const cfaBreeds = [
@@ -21,6 +21,28 @@ const cfaBreeds = [
   "Persian", "RagaMuffin", "Ragdoll", "Russian Blue", "Scottish Fold", "Selkirk Rex",
   "Siamese", "Siberian", "Singapura", "Somali", "Sphynx", "Tonkinese", "Toybob",
   "Turkish Angora", "Turkish Van"
+];
+
+const cfaProvisional = new Set(["Khao Manee"]);
+const ticaAdvancedNewBreeds = new Set(["Serengeti", "Toybob"]);
+
+const gccfBreeds = [
+  ["EXO", "Exotic Shorthair", 1], ["PER", "Persian", 1],
+  ["MCO", "Maine Coon", 2], ["NEB", "Nebelung", 2], ["NFO", "Norwegian Forest Cat", 2],
+  ["RAG", "Ragdoll", 2], ["RGM", "RagaMuffin", 2], ["SBI", "Birman", 2],
+  ["SIB", "Siberian", 2], ["SOL", "Somali", 2], ["SOS", "Somali", 2],
+  ["TUV", "Turkish Van", 2], ["BLH", "British Longhair", 3], ["BSH", "British Shorthair", 3],
+  ["CHA", "Chartreux", 3], ["MAN", "Manx", 3], ["SRL", "Selkirk Rex Longhair", 3],
+  ["SRS", "Selkirk Rex", 3], ["ABY", "Abyssinian", 4], ["BEN", "Bengal", 4],
+  ["CRX", "Cornish Rex", 4], ["DRX", "Devon Rex", 4], ["KOR", "Korat", 4],
+  ["LPL", "LaPerm Longhair", 4], ["LPS", "LaPerm", 4], ["LYL", "Lykoi Longhair", 4],
+  ["LYS", "Lykoi", 4], ["MAU", "Egyptian Mau", 4], ["OCI", "Ocicat", 4],
+  ["RUS", "Russian Blue", 4], ["SIN", "Singapura", 4], ["SNO", "Snowshoe", 4],
+  ["SOK", "Sokoke", 4], ["SPH", "Sphynx", 4], ["TAI", "Thai", 4],
+  ["TOY", "Toyger", 4], ["ALH", "Asian Longhair", 5], ["ASH", "Asian Shorthair", 5],
+  ["AUM", "Australian Mist", 5], ["BUR", "Burmese", 5], ["SUF", "Suffolk", 5],
+  ["TOS", "Tonkinese", 5], ["BAL", "Balinese", 6], ["OLH", "Oriental Longhair", 6],
+  ["OSH", "Oriental Shorthair", 6], ["SIA", "Siamese", 6]
 ];
 
 const ticaBreeds = [
@@ -63,8 +85,14 @@ async function fetchFife() {
   const html = await get(registrySources.fife);
   const preliminaryOffset = html.lastIndexOf("Preliminary Recognised Breeds and Varieties");
   const records = [];
-  for (const match of html.matchAll(/<h3[^>]*>([\s\S]*?)<\/h3>/g)) {
-    const heading = decodeHtml(match[1]);
+  let category;
+  for (const match of html.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>|<h3[^>]*>([\s\S]*?)<\/h3>/g)) {
+    if (match[1]) {
+      const parsedCategory = decodeHtml(match[1]).match(/Category\s+(\d)/i)?.[1];
+      if (parsedCategory) category = `category-${parsedCategory}`;
+      continue;
+    }
+    const heading = decodeHtml(match[2]);
     const parsed = heading.match(/^([A-Z]{3})\s*[–-]\s*(.+)$/);
     if (!parsed) continue;
     const [, registryId, name] = parsed;
@@ -72,7 +100,8 @@ async function fetchFife() {
     records.push({
       name,
       registryId,
-      status: match.index >= preliminaryOffset ? "preliminary" : "recognized"
+      status: match.index >= preliminaryOffset ? "preliminary" : "recognized",
+      classification: category
     });
   }
   return records;
@@ -84,13 +113,23 @@ const registries = {
     source: registrySources.cfa,
     count: cfaBreeds.length,
     note: "Current CFA recognized-breed index, transcribed as a dated snapshot.",
-    breeds: cfaBreeds.map((name) => ({ name, registryId: name, status: "recognized" }))
+    breeds: cfaBreeds.map((name) => ({
+      name,
+      registryId: name,
+      status: cfaProvisional.has(name) ? "provisional" : "recognized",
+      classification: cfaProvisional.has(name) ? "provisional" : "championship"
+    }))
   },
   tica: {
     source: registrySources.tica,
     count: ticaBreeds.length,
     note: "Current public browse entries, including separately displayed coat and tail variants.",
-    breeds: ticaBreeds.map((name) => ({ name, registryId: name, status: "listed" }))
+    breeds: ticaBreeds.map((name) => ({
+      name,
+      registryId: name,
+      status: ticaAdvancedNewBreeds.has(name) ? "advanced-new-breed" : "recognized",
+      classification: ticaAdvancedNewBreeds.has(name) ? "advanced-new-breed" : "championship"
+    }))
   },
   fife: {
     source: registrySources.fife,
@@ -99,9 +138,14 @@ const registries = {
   },
   gccf: {
     source: registrySources.gccf,
-    count: 40,
-    note: "GCCF reports 40 recognized breeds; used as a supplementary count check because its public page does not expose a stable breed-name index.",
-    breeds: []
+    count: gccfBreeds.length,
+    note: "GCCF GEMS codes mapped to the six official show sections; coat-length codes can resolve to one canonical breed.",
+    breeds: gccfBreeds.map(([registryId, name, section]) => ({
+      name,
+      registryId,
+      status: "recognized",
+      classification: `section-${section}`
+    }))
   }
 };
 

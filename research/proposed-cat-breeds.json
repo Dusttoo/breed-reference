@@ -19,10 +19,10 @@
       "retrievedAt": "2026-10-13"
     },
     {
-      "name": "Governing Council of the Cat Fancy breed statistics",
-      "url": "https://www.gccfcats.org/breeding-cats/stats-and-policies/",
+      "name": "Governing Council of the Cat Fancy GEMS codes",
+      "url": "https://www.gccfcats.org/breeding-cats/new-to-breeding/registration-policies/gems-codes/",
       "retrievedAt": "2026-10-13",
-      "note": "GCCF reports 40 recognized breeds; used as a supplementary count check because its public page does not expose a stable breed-name index."
+      "note": "GCCF GEMS codes mapped to the six official show sections; coat-length codes can resolve to one canonical breed."
     }
   ],
   "breeds": [
@@ -47,10 +47,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "ABY",
+            "name": "Abyssinian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Abyssinian",
             "name": "Abyssinian",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -76,14 +83,14 @@
             "registry": "tica",
             "registryId": "American Bobtail",
             "name": "American Bobtail",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "American Bobtail Shorthair",
             "name": "American Bobtail Shorthair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -124,14 +131,14 @@
             "registry": "tica",
             "registryId": "American Curl",
             "name": "American Curl",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "American Curl Longhair",
             "name": "American Curl Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -154,7 +161,7 @@
             "registry": "tica",
             "registryId": "American Shorthair",
             "name": "American Shorthair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -177,7 +184,34 @@
             "registry": "tica",
             "registryId": "American Wirehair",
             "name": "American Wirehair",
-            "status": "listed",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:asian",
+      "name": "Asian",
+      "slug": "asian",
+      "aliases": [
+        "Asian Longhair",
+        "Asian Shorthair"
+      ],
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "gccf",
+            "registryId": "ALH",
+            "name": "Asian Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "gccf",
+            "registryId": "ASH",
+            "name": "Asian Shorthair",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -190,10 +224,17 @@
       "facts": {
         "registryRecognition": [
           {
+            "registry": "gccf",
+            "registryId": "AUM",
+            "name": "Australian Mist",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Australian Mist",
             "name": "Australian Mist",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -220,10 +261,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "BAL",
+            "name": "Balinese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Balinese",
             "name": "Balinese",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -253,17 +301,24 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "BEN",
+            "name": "Bengal",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Bengal",
             "name": "Bengal",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Bengal Longhair",
             "name": "Bengal Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -293,10 +348,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SBI",
+            "name": "Birman",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Birman",
             "name": "Birman",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -326,7 +388,7 @@
             "registry": "tica",
             "registryId": "Bombay",
             "name": "Bombay",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -346,10 +408,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "BLH",
+            "name": "British Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "British Longhair",
             "name": "British Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -376,10 +445,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "BSH",
+            "name": "British Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "British Shorthair",
             "name": "British Shorthair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -406,10 +482,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "BUR",
+            "name": "Burmese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Burmese",
             "name": "Burmese",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -442,14 +525,14 @@
             "registry": "tica",
             "registryId": "Burmilla",
             "name": "Burmilla",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Burmilla Longhair",
             "name": "Burmilla Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -476,10 +559,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "CHA",
+            "name": "Chartreux",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Chartreux",
             "name": "Chartreux",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -495,7 +585,7 @@
             "registry": "tica",
             "registryId": "Chausie",
             "name": "Chausie",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -511,7 +601,7 @@
             "registry": "tica",
             "registryId": "Cherubim",
             "name": "Cherubim",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -554,10 +644,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "CRX",
+            "name": "Cornish Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Cornish Rex",
             "name": "Cornish Rex",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -583,14 +680,14 @@
             "registry": "tica",
             "registryId": "Cymric",
             "name": "Cymric",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Cymric Tailed",
             "name": "Cymric Tailed",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -617,10 +714,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "DRX",
+            "name": "Devon Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Devon Rex",
             "name": "Devon Rex",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -646,7 +750,7 @@
             "registry": "tica",
             "registryId": "Donskoy",
             "name": "Donskoy",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -673,10 +777,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "MAU",
+            "name": "Egyptian Mau",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Egyptian Mau",
             "name": "Egyptian Mau",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -741,10 +852,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "EXO",
+            "name": "Exotic Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Exotic Shorthair",
             "name": "Exotic Shorthair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -786,7 +904,7 @@
             "registry": "tica",
             "registryId": "Havana",
             "name": "Havana",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -805,14 +923,14 @@
             "registry": "tica",
             "registryId": "Highlander",
             "name": "Highlander",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Highlander Shorthair",
             "name": "Highlander Shorthair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -828,7 +946,7 @@
             "registry": "tica",
             "registryId": "Himalayan",
             "name": "Himalayan",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -862,14 +980,14 @@
             "registry": "tica",
             "registryId": "Japanese Bobtail",
             "name": "Japanese Bobtail",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Japanese Bobtail Longhair",
             "name": "Japanese Bobtail Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -888,14 +1006,14 @@
             "registry": "cfa",
             "registryId": "Khao Manee",
             "name": "Khao Manee",
-            "status": "recognized",
+            "status": "provisional",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Khaomanee",
             "name": "Khaomanee",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -922,10 +1040,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "KOR",
+            "name": "Korat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Korat",
             "name": "Korat",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -960,14 +1085,14 @@
             "registry": "tica",
             "registryId": "Kurilian Bobtail",
             "name": "Kurilian Bobtail",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Kurilian Bobtail Longhair",
             "name": "Kurilian Bobtail Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1005,17 +1130,31 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "LPL",
+            "name": "LaPerm Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "gccf",
+            "registryId": "LPS",
+            "name": "LaPerm",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "LaPerm",
             "name": "LaPerm",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "LaPerm Shorthair",
             "name": "LaPerm Shorthair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1042,14 +1181,31 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "LYL",
+            "name": "Lykoi Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "gccf",
+            "registryId": "LYS",
+            "name": "Lykoi",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Lykoi",
             "name": "Lykoi",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
-      }
+      },
+      "aliases": [
+        "Lykoi Longhair"
+      ]
     },
     {
       "id": "cat:maine-coon",
@@ -1075,17 +1231,24 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "MCO",
+            "name": "Maine Coon",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Maine Coon",
             "name": "Maine Coon",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Maine Coon Polydactyl",
             "name": "Maine Coon Polydactyl",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1115,17 +1278,24 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "MAN",
+            "name": "Manx",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Manx",
             "name": "Manx",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Manx Tailed",
             "name": "Manx Tailed",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1146,28 +1316,28 @@
             "registry": "tica",
             "registryId": "Minuet",
             "name": "Minuet",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Minuet Longhair",
             "name": "Minuet Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Minuet Talls",
             "name": "Minuet Talls",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Minuet Talls Longhair",
             "name": "Minuet Talls Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1186,14 +1356,14 @@
             "registry": "tica",
             "registryId": "Munchkin",
             "name": "Munchkin",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Munchkin Longhair",
             "name": "Munchkin Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1206,10 +1376,17 @@
       "facts": {
         "registryRecognition": [
           {
+            "registry": "gccf",
+            "registryId": "NEB",
+            "name": "Nebelung",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Nebelung",
             "name": "Nebelung",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1255,10 +1432,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "NFO",
+            "name": "Norwegian Forest Cat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Norwegian Forest",
             "name": "Norwegian Forest",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1285,10 +1469,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "OCI",
+            "name": "Ocicat",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Ocicat",
             "name": "Ocicat",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1308,10 +1499,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "OLH",
+            "name": "Oriental Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Oriental Longhair",
             "name": "Oriental Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1341,10 +1539,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "OSH",
+            "name": "Oriental Shorthair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Oriental Shorthair",
             "name": "Oriental Shorthair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1371,10 +1576,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "PER",
+            "name": "Persian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Persian",
             "name": "Persian",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1397,7 +1609,7 @@
             "registry": "tica",
             "registryId": "Peterbald",
             "name": "Peterbald",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1416,14 +1628,14 @@
             "registry": "tica",
             "registryId": "Pixiebob",
             "name": "Pixiebob",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Pixiebob Longhair",
             "name": "Pixiebob Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1438,6 +1650,13 @@
           {
             "registry": "cfa",
             "registryId": "RagaMuffin",
+            "name": "RagaMuffin",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "gccf",
+            "registryId": "RGM",
             "name": "RagaMuffin",
             "status": "recognized",
             "auditedAt": "2026-10-13"
@@ -1466,10 +1685,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "RAG",
+            "name": "Ragdoll",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Ragdoll",
             "name": "Ragdoll",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1496,10 +1722,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "RUS",
+            "name": "Russian Blue",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Russian Blue",
             "name": "Russian Blue",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1515,7 +1748,7 @@
             "registry": "tica",
             "registryId": "Savannah",
             "name": "Savannah",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1541,14 +1774,14 @@
             "registry": "tica",
             "registryId": "Scottish Fold",
             "name": "Scottish Fold",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Scottish Fold Longhair",
             "name": "Scottish Fold Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1567,14 +1800,14 @@
             "registry": "tica",
             "registryId": "Scottish Straight",
             "name": "Scottish Straight",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Scottish Straight Longhair",
             "name": "Scottish Straight Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1612,17 +1845,31 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SRL",
+            "name": "Selkirk Rex Longhair",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "gccf",
+            "registryId": "SRS",
+            "name": "Selkirk Rex",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Selkirk Rex",
             "name": "Selkirk Rex",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           },
           {
             "registry": "tica",
             "registryId": "Selkirk Rex Longhair",
             "name": "Selkirk Rex Longhair",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1638,7 +1885,7 @@
             "registry": "tica",
             "registryId": "Serengeti",
             "name": "Serengeti",
-            "status": "listed",
+            "status": "advanced-new-breed",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1665,10 +1912,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SIA",
+            "name": "Siamese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Siamese",
             "name": "Siamese",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1695,10 +1949,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SIB",
+            "name": "Siberian",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Siberian",
             "name": "Siberian",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1725,10 +1986,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SIN",
+            "name": "Singapura",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Singapura",
             "name": "Singapura",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1748,10 +2016,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SNO",
+            "name": "Snowshoe",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Snowshoe",
             "name": "Snowshoe",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1765,6 +2040,13 @@
         "registryRecognition": [
           {
             "registry": "fife",
+            "registryId": "SOK",
+            "name": "Sokoke",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "gccf",
             "registryId": "SOK",
             "name": "Sokoke",
             "status": "recognized",
@@ -1794,10 +2076,24 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SOL",
+            "name": "Somali",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
+            "registry": "gccf",
+            "registryId": "SOS",
+            "name": "Somali",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Somali",
             "name": "Somali",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1824,10 +2120,33 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "SPH",
+            "name": "Sphynx",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Sphynx",
             "name": "Sphynx",
-            "status": "listed",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cat:suffolk",
+      "name": "Suffolk",
+      "slug": "suffolk",
+      "facts": {
+        "registryRecognition": [
+          {
+            "registry": "gccf",
+            "registryId": "SUF",
+            "name": "Suffolk",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1843,7 +2162,7 @@
             "registry": "tica",
             "registryId": "Tennessee Rex",
             "name": "Tennessee Rex",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1863,10 +2182,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "TAI",
+            "name": "Thai",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Thai",
             "name": "Thai",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1886,10 +2212,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "TOS",
+            "name": "Tonkinese",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Tonkinese",
             "name": "Tonkinese",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1912,7 +2245,7 @@
             "registry": "tica",
             "registryId": "Toybob",
             "name": "Toybob",
-            "status": "listed",
+            "status": "advanced-new-breed",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1925,10 +2258,17 @@
       "facts": {
         "registryRecognition": [
           {
+            "registry": "gccf",
+            "registryId": "TOY",
+            "name": "Toyger",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Toyger",
             "name": "Toyger",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1958,7 +2298,7 @@
             "registry": "tica",
             "registryId": "Turkish Angora",
             "name": "Turkish Angora",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
@@ -1985,10 +2325,17 @@
             "auditedAt": "2026-10-13"
           },
           {
+            "registry": "gccf",
+            "registryId": "TUV",
+            "name": "Turkish Van",
+            "status": "recognized",
+            "auditedAt": "2026-10-13"
+          },
+          {
             "registry": "tica",
             "registryId": "Turkish Van",
             "name": "Turkish Van",
-            "status": "listed",
+            "status": "recognized",
             "auditedAt": "2026-10-13"
           }
         ]
