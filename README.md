@@ -6,7 +6,7 @@ applications a shared set of identifiers without copying lists between codebases
 For quick copying, use the plain-text lists:
 
 - [`lists/dog-breeds.txt`](lists/dog-breeds.txt) — 439 dog breeds
-- [`lists/dog-mixes.txt`](lists/dog-mixes.txt) — 58 named designer mixes
+- [`lists/dog-mixes.txt`](lists/dog-mixes.txt) — 64 named designer mixes
 - [`lists/cat-breeds.txt`](lists/cat-breeds.txt) — 73 cat breeds
 
 Each file contains one alphabetically sorted display name per line. The JSON
@@ -21,7 +21,7 @@ other major dog registries and four major cat registries.
 
 The breed catalog compiles dog and cat names from major public breed registries.
 Named designer mixes live in a separate dog document because a mix is not a
-registry recognition assertion. Each mix points to two canonical dog breed IDs.
+registry recognition assertion. Each mix points to two or more canonical dog breed IDs.
 It does not claim that one registry's definition of “every breed” is universal.
 A breed can be recognized by one organization and treated as a variety,
 provisional breed, foundation-stock population, or unrecognized population by
@@ -86,8 +86,14 @@ alias, missing registry recognition, or a name ending in “doodle.” A breed
 search should not silently count a related mix as that breed. To show related
 mixes, filter `parentBreedIds` explicitly.
 
-The two parent IDs describe the conventional named cross; they are unordered
-and do not identify a particular litter's sire and dam. A breeder should enter
+The parent IDs describe the conventional named cross's foundation breeds:
+two for a first cross such as the Goldendoodle, and up to six for a
+multi-breed or multigenerational mix such as the Australian Labradoodle. They
+are unordered and do not identify a particular litter's sire and dam. A mix
+developed from another named mix, such as the Australian Bernedoodle, also
+lists that mix in `parentMixIds`, and its `parentBreedIds` include every
+foundation breed of that parent mix. A minor foundation contribution is
+documented in the source note rather than weighted. A breeder should enter
 the actual parents of a litter separately. Size, coat, colour, and generation
 terms remain breeder supplied traits or descriptions, not new breed records.
 Where a mix name can cover multiple varieties of a parent breed, the reference
@@ -156,8 +162,9 @@ npm test
 The validator applies the JSON Schemas and checks file references, counts,
 identifiers, slugs, sort order, uniqueness, and exact agreement between each
 JSON catalog and its generated text list. It also checks that dog search names
-and aliases are unique after normalization, and that named mixes point to two
-existing breed IDs. Run `npm run generate` after changing breed or mix names.
+and aliases are unique after normalization, that named mixes point to two to
+six existing breed IDs, and that parent mixes exist, form no cycle, and have
+their foundation breeds repeated on the child mix. Run `npm run generate` after changing breed or mix names.
 Classification validation also checks taxonomy, category, parent,
 breed and membership references; hierarchy cycles; status/date rules; sort
 order; and catalog counts. Run `npm run generate:classifications` after

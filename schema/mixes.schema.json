@@ -23,10 +23,18 @@
             "uniqueItems": true
           },
           "parentBreedIds": {
+            "description": "Every canonical breed in the named cross's foundation, unordered: two for a first cross, more for a multi-breed or multigenerational mix.",
             "type": "array",
             "items": { "type": "string", "pattern": "^dog:[a-z0-9]+(?:-[a-z0-9]+)*$" },
             "minItems": 2,
-            "maxItems": 2,
+            "maxItems": 6,
+            "uniqueItems": true
+          },
+          "parentMixIds": {
+            "description": "Named mixes this mix was developed from. Each parent mix's foundation breeds must also appear in parentBreedIds.",
+            "type": "array",
+            "items": { "type": "string", "pattern": "^dog-mix:[a-z0-9]+(?:-[a-z0-9]+)*$" },
+            "minItems": 1,
             "uniqueItems": true
           },
           "sources": {

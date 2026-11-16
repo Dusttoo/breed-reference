@@ -1,6 +1,9 @@
 Airedoodle
 Alusky
+American Corgi
 Aussiedoodle
+Australian Bernedoodle
+Australian Labradoodle
 Ba-Shar
 Bagle Hound
 Bassetoodle
@@ -13,6 +16,7 @@ Bogle
 Boglen Terrier
 Borador
 Bordernese
+Bordoodle
 Boxador
 Cavachon
 Cavapoo
@@ -43,10 +47,12 @@ Peekapoo
 Pomapoo
 Pomchi
 Pomsky
+Portidoodle
 Pugapoo
 Puggle
 Saint Berdoodle
 Schnoodle
+Sheepadoodle
 Sheltidoodle
 Shichon
 Shih Poo

@@ -24,7 +24,7 @@
       "breeds": "species/dog/breeds.json",
       "list": "lists/dog-breeds.txt",
       "mixes": "species/dog/mixes.json",
-      "mixCount": 58,
+      "mixCount": 64,
       "mixList": "lists/dog-mixes.txt",
       "classifications": "species/dog/classifications.json",
       "taxonomyCount": 5,
