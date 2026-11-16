@@ -1,7 +1,7 @@
 {
   "$schema": "./schema/catalog.schema.json",
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13",
+  "updatedAt": "2026-11-15",
   "species": [
     {
       "id": "cat",
@@ -23,6 +23,9 @@
       "metadata": "species/dog/species.json",
       "breeds": "species/dog/breeds.json",
       "list": "lists/dog-breeds.txt",
+      "mixes": "species/dog/mixes.json",
+      "mixCount": 58,
+      "mixList": "lists/dog-mixes.txt",
       "classifications": "species/dog/classifications.json",
       "taxonomyCount": 5,
       "classificationMembershipCount": 1437

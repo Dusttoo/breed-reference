@@ -12,4 +12,9 @@ for (const entry of catalog.species) {
   const contents = `${document.breeds.map((breed) => breed.name).join("\n")}\n`;
   await writeFile(path.join(root, entry.list), contents);
   console.log(`Generated ${entry.list} with ${document.breeds.length} names.`);
+  if (entry.mixes) {
+    const mixes = JSON.parse(await readFile(path.join(root, entry.mixes), "utf8")).mixes;
+    await writeFile(path.join(root, entry.mixList), `${mixes.map((mix) => mix.name).join("\n")}\n`);
+    console.log(`Generated ${entry.mixList} with ${mixes.length} names.`);
+  }
 }

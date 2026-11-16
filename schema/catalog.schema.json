@@ -21,12 +21,18 @@
           "metadata": { "type": "string", "minLength": 1 },
           "breeds": { "type": "string", "minLength": 1 },
           "list": { "type": "string", "minLength": 1 },
+          "mixes": { "type": "string", "minLength": 1 },
+          "mixCount": { "type": "integer", "minimum": 0 },
+          "mixList": { "type": "string", "minLength": 1 },
           "classifications": { "type": "string", "minLength": 1 },
           "taxonomyCount": { "type": "integer", "minimum": 0 },
           "classificationMembershipCount": { "type": "integer", "minimum": 0 }
         },
         "dependentRequired": {
           "classifications": ["taxonomyCount", "classificationMembershipCount"],
+          "mixes": ["mixCount", "mixList"],
+          "mixCount": ["mixes", "mixList"],
+          "mixList": ["mixes", "mixCount"],
           "taxonomyCount": ["classifications", "classificationMembershipCount"],
           "classificationMembershipCount": ["classifications", "taxonomyCount"]
         },
