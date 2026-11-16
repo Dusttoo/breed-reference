@@ -38,6 +38,31 @@
       ]
     },
     {
+      "id": "dog-mix:american-corgi",
+      "name": "American Corgi",
+      "slug": "american-corgi",
+      "aliases": [
+        "Cardigan Pembroke Corgi"
+      ],
+      "parentBreedIds": [
+        "dog:cardigan-welsh-corgi",
+        "dog:pembroke-welsh-corgi"
+      ],
+      "sources": [
+        {
+          "name": "Dogster American Corgi breed guide",
+          "url": "https://www.dogster.com/dog-breeds/american-corgi",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-16",
+          "note": "Listed as Cardigan Pembroke Corgi."
+        }
+      ]
+    },
+    {
       "id": "dog-mix:aussiedoodle",
       "name": "Aussiedoodle",
       "slug": "aussiedoodle",
@@ -53,6 +78,50 @@
           "name": "American Canine Hybrid Club recognized hybrid dogs",
           "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
           "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:australian-bernedoodle",
+      "name": "Australian Bernedoodle",
+      "slug": "australian-bernedoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:bernese-mountain-dog",
+        "dog:cocker-spaniel",
+        "dog:english-cocker-spaniel",
+        "dog:labrador-retriever",
+        "dog:poodle"
+      ],
+      "parentMixIds": [
+        "dog-mix:australian-labradoodle"
+      ],
+      "sources": [
+        {
+          "name": "Dogster Australian Bernedoodle breed guide",
+          "url": "https://www.dogster.com/dog-breeds/australian-bernedoodle/",
+          "retrievedAt": "2026-11-16",
+          "note": "Bernese Mountain Dog crossed with the Australian Labradoodle. Distinct from the Australian Mountain Doodle (Australian Shepherd, Bernese Mountain Dog, Poodle), so the ambiguous 'Aussie Bernedoodle' is not an alias."
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:australian-labradoodle",
+      "name": "Australian Labradoodle",
+      "slug": "australian-labradoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:cocker-spaniel",
+        "dog:english-cocker-spaniel",
+        "dog:labrador-retriever",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "PLOS Genetics: Genetic analysis of the modern Australian labradoodle dog breed reveals an excess of the poodle genome (2020)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7482835",
+          "retrievedAt": "2026-11-16",
+          "note": "Founded from Labrador Retriever and standard Poodle crosses; American and English Cocker Spaniels contribute under 5% to a subset of lineages. Irish Water Spaniel showed no measurable contribution."
         }
       ]
     },
@@ -261,6 +330,31 @@
           "name": "American Canine Hybrid Club recognized hybrid dogs",
           "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
           "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bordoodle",
+      "name": "Bordoodle",
+      "slug": "bordoodle",
+      "aliases": [
+        "Border Poodle"
+      ],
+      "parentBreedIds": [
+        "dog:border-collie",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-16",
+          "note": "Listed as Border Poodle / Bordoodle."
         }
       ]
     },
@@ -803,6 +897,27 @@
       ]
     },
     {
+      "id": "dog-mix:portidoodle",
+      "name": "Portidoodle",
+      "slug": "portidoodle",
+      "aliases": [
+        "Mini Portidoodle",
+        "Portipoo"
+      ],
+      "parentBreedIds": [
+        "dog:portuguese-water-dog",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Dogster Portuguese Water Dog Poodle mix guide",
+          "url": "https://www.dogster.com/dog-breeds/portuguese-water-dog-poodle-mix/",
+          "retrievedAt": "2026-11-16",
+          "note": "Mini Portidoodle is the same cross using a Miniature Poodle; the record links the general Poodle ID."
+        }
+      ]
+    },
+    {
       "id": "dog-mix:pugapoo",
       "name": "Pugapoo",
       "slug": "pugapoo",
@@ -871,6 +986,26 @@
           "name": "Designer Breed Registry recognized hybrid dogs",
           "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
           "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:sheepadoodle",
+      "name": "Sheepadoodle",
+      "slug": "sheepadoodle",
+      "aliases": [
+        "Mini Sheepadoodle"
+      ],
+      "parentBreedIds": [
+        "dog:old-english-sheepdog",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "PetMD Sheepadoodle dog breed health and care",
+          "url": "https://www.petmd.com/dog/breeds/sheepadoodle",
+          "retrievedAt": "2026-11-16",
+          "note": "A Miniature Sheepadoodle crosses an Old English Sheepdog with a Miniature Poodle; the record links the general Poodle ID."
         }
       ]
     },

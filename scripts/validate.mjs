@@ -139,12 +139,43 @@ for (const entry of catalog.species) {
         else searchNames.set(normalized, record.id);
       }
     }
+    const mixesById = new Map(mixes.map((mix) => [mix.id, mix]));
     for (const mix of mixes) {
       if (mix.id !== `dog-mix:${mix.slug}`) errors.push(`${mix.id}: id and slug do not agree`);
       for (const parentId of mix.parentBreedIds ?? []) {
         if (!breedIds.has(parentId)) errors.push(`${mix.id}: missing parent breed ${parentId}`);
       }
+      for (const parentMixId of mix.parentMixIds ?? []) {
+        const parentMix = mixesById.get(parentMixId);
+        if (parentMixId === mix.id) errors.push(`${mix.id}: lists itself as a parent mix`);
+        else if (!parentMix) errors.push(`${mix.id}: missing parent mix ${parentMixId}`);
+        else {
+          // A mix's foundation includes every foundation breed of the mixes it descends from.
+          for (const breedId of parentMix.parentBreedIds) {
+            if (!mix.parentBreedIds.includes(breedId)) {
+              errors.push(`${mix.id}: parent mix ${parentMixId} brings ${breedId}, which is missing from parentBreedIds`);
+            }
+          }
+        }
+      }
     }
+    const visiting = new Set();
+    const visited = new Set();
+    const visit = (mix) => {
+      if (visited.has(mix.id)) return;
+      if (visiting.has(mix.id)) {
+        errors.push(`${mix.id}: parent mix cycle`);
+        return;
+      }
+      visiting.add(mix.id);
+      for (const parentMixId of mix.parentMixIds ?? []) {
+        const parentMix = mixesById.get(parentMixId);
+        if (parentMix && parentMix.id !== mix.id) visit(parentMix);
+      }
+      visiting.delete(mix.id);
+      visited.add(mix.id);
+    };
+    for (const mix of mixes) visit(mix);
   }
 
   if (!entry.classifications) continue;
