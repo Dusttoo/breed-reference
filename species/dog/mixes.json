@@ -1,0 +1,1042 @@
+{
+  "$schema": "../../schema/mixes.schema.json",
+  "schemaVersion": 1,
+  "species": "dog",
+  "mixes": [
+    {
+      "id": "dog-mix:airedoodle",
+      "name": "Airedoodle",
+      "slug": "airedoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:airedale-terrier",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:alusky",
+      "name": "Alusky",
+      "slug": "alusky",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:alaskan-malamute",
+        "dog:siberian-husky"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:aussiedoodle",
+      "name": "Aussiedoodle",
+      "slug": "aussiedoodle",
+      "aliases": [
+        "Aussie-Poo"
+      ],
+      "parentBreedIds": [
+        "dog:australian-shepherd",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:ba-shar",
+      "name": "Ba-Shar",
+      "slug": "ba-shar",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:basset-hound",
+        "dog:chinese-shar-pei"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bagle-hound",
+      "name": "Bagle Hound",
+      "slug": "bagle-hound",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:basset-hound",
+        "dog:beagle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bassetoodle",
+      "name": "Bassetoodle",
+      "slug": "bassetoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:basset-hound",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:beagleman",
+      "name": "Beagleman",
+      "slug": "beagleman",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:doberman-pinscher"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:beaglier",
+      "name": "Beaglier",
+      "slug": "beaglier",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:cavalier-king-charles-spaniel"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bernedoodle",
+      "name": "Bernedoodle",
+      "slug": "bernedoodle",
+      "aliases": [
+        "Bernese Mountain Poo"
+      ],
+      "parentBreedIds": [
+        "dog:bernese-mountain-dog",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "PetMD Bernedoodle dog breed health and care",
+          "url": "https://www.petmd.com/dog/breeds/bernedoodle",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bichonpoo",
+      "name": "Bichonpoo",
+      "slug": "bichonpoo",
+      "aliases": [
+        "Poochon"
+      ],
+      "parentBreedIds": [
+        "dog:bichon-frise",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bocker",
+      "name": "Bocker",
+      "slug": "bocker",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:cocker-spaniel"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bogle",
+      "name": "Bogle",
+      "slug": "bogle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:boxer"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:boglen-terrier",
+      "name": "Boglen Terrier",
+      "slug": "boglen-terrier",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:boston-terrier"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:borador",
+      "name": "Borador",
+      "slug": "borador",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:border-collie",
+        "dog:labrador-retriever"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:bordernese",
+      "name": "Bordernese",
+      "slug": "bordernese",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:bernese-mountain-dog",
+        "dog:border-collie"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:boxador",
+      "name": "Boxador",
+      "slug": "boxador",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:boxer",
+        "dog:labrador-retriever"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:cavachon",
+      "name": "Cavachon",
+      "slug": "cavachon",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:bichon-frise",
+        "dog:cavalier-king-charles-spaniel"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:cavapoo",
+      "name": "Cavapoo",
+      "slug": "cavapoo",
+      "aliases": [
+        "Cavoodle"
+      ],
+      "parentBreedIds": [
+        "dog:cavalier-king-charles-spaniel",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:chorkie",
+      "name": "Chorkie",
+      "slug": "chorkie",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:chihuahua",
+        "dog:yorkshire-terrier"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:chug",
+      "name": "Chug",
+      "slug": "chug",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:chihuahua",
+        "dog:pug"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:cock-a-chon",
+      "name": "Cock-A-Chon",
+      "slug": "cock-a-chon",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:bichon-frise",
+        "dog:cocker-spaniel"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:cockapoo",
+      "name": "Cockapoo",
+      "slug": "cockapoo",
+      "aliases": [
+        "Cockerpoo",
+        "Spoodle"
+      ],
+      "parentBreedIds": [
+        "dog:cocker-spaniel",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "PetMD Cockapoo dog breed health and care",
+          "url": "https://www.petmd.com/dog/breeds/cockapoo",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:dalmadoodle",
+      "name": "Dalmadoodle",
+      "slug": "dalmadoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:dalmatian",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:dorkie",
+      "name": "Dorkie",
+      "slug": "dorkie",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:dachshund",
+        "dog:yorkshire-terrier"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:doxle",
+      "name": "Doxle",
+      "slug": "doxle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:dachshund"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:frenchton",
+      "name": "Frenchton",
+      "slug": "frenchton",
+      "aliases": [
+        "Boston Frenchie",
+        "Faux French Bulldog"
+      ],
+      "parentBreedIds": [
+        "dog:boston-terrier",
+        "dog:french-bulldog"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:gerberian-shepsky",
+      "name": "Gerberian Shepsky",
+      "slug": "gerberian-shepsky",
+      "aliases": [
+        "Shepsky"
+      ],
+      "parentBreedIds": [
+        "dog:german-shepherd",
+        "dog:siberian-husky"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:goberian",
+      "name": "Goberian",
+      "slug": "goberian",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:golden-retriever",
+        "dog:siberian-husky"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:goldador",
+      "name": "Goldador",
+      "slug": "goldador",
+      "aliases": [
+        "Golden Labrador"
+      ],
+      "parentBreedIds": [
+        "dog:golden-retriever",
+        "dog:labrador-retriever"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:golden-mountain-dog",
+      "name": "Golden Mountain Dog",
+      "slug": "golden-mountain-dog",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:bernese-mountain-dog",
+        "dog:golden-retriever"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:goldendoodle",
+      "name": "Goldendoodle",
+      "slug": "goldendoodle",
+      "aliases": [
+        "Groodle"
+      ],
+      "parentBreedIds": [
+        "dog:golden-retriever",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:havachon",
+      "name": "Havachon",
+      "slug": "havachon",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:bichon-frise",
+        "dog:havanese"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:havapoo",
+      "name": "Havapoo",
+      "slug": "havapoo",
+      "aliases": [
+        "Havadoodle"
+      ],
+      "parentBreedIds": [
+        "dog:havanese",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "PetMD Havapoo dog breed health and care",
+          "url": "https://www.petmd.com/dog/breeds/havapoo",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:huskimo",
+      "name": "Huskimo",
+      "slug": "huskimo",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:american-eskimo-dog",
+        "dog:siberian-husky"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:labbe",
+      "name": "Labbe",
+      "slug": "labbe",
+      "aliases": [
+        "Beagador"
+      ],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:labrador-retriever"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:labernese",
+      "name": "Labernese",
+      "slug": "labernese",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:bernese-mountain-dog",
+        "dog:labrador-retriever"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:labradoodle",
+      "name": "Labradoodle",
+      "slug": "labradoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:labrador-retriever",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:lhasapoo",
+      "name": "Lhasapoo",
+      "slug": "lhasapoo",
+      "aliases": [
+        "Lhasa-Poo"
+      ],
+      "parentBreedIds": [
+        "dog:lhasa-apso",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:mal-shi",
+      "name": "Mal-Shi",
+      "slug": "mal-shi",
+      "aliases": [
+        "Malshi"
+      ],
+      "parentBreedIds": [
+        "dog:maltese",
+        "dog:shih-tzu"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:maltipoo",
+      "name": "Maltipoo",
+      "slug": "maltipoo",
+      "aliases": [
+        "Maltepoo"
+      ],
+      "parentBreedIds": [
+        "dog:maltese",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Purina UK mixed-breed dog guides",
+          "url": "https://www.purina.co.uk/find-a-pet/articles/dog-types/breed-guides/mixed-breed-dogs",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:morkie",
+      "name": "Morkie",
+      "slug": "morkie",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:maltese",
+        "dog:yorkshire-terrier"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:peekapoo",
+      "name": "Peekapoo",
+      "slug": "peekapoo",
+      "aliases": [
+        "Peke-A-Poo"
+      ],
+      "parentBreedIds": [
+        "dog:pekingese",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Purina UK mixed-breed dog guides",
+          "url": "https://www.purina.co.uk/find-a-pet/articles/dog-types/breed-guides/mixed-breed-dogs",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:pomapoo",
+      "name": "Pomapoo",
+      "slug": "pomapoo",
+      "aliases": [
+        "Pom-A-Poo"
+      ],
+      "parentBreedIds": [
+        "dog:pomeranian",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Purina UK Pomapoo breed guide",
+          "url": "https://www.purina.co.uk/find-a-pet/dog-breeds/pomapoo",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:pomchi",
+      "name": "Pomchi",
+      "slug": "pomchi",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:chihuahua",
+        "dog:pomeranian"
+      ],
+      "sources": [
+        {
+          "name": "PetMD Pomchi dog breed health and care",
+          "url": "https://www.petmd.com/dog/breeds/pomchi",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:pomsky",
+      "name": "Pomsky",
+      "slug": "pomsky",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:pomeranian",
+        "dog:siberian-husky"
+      ],
+      "sources": [
+        {
+          "name": "Purina UK mixed-breed dog guides",
+          "url": "https://www.purina.co.uk/find-a-pet/articles/dog-types/breed-guides/mixed-breed-dogs",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:pugapoo",
+      "name": "Pugapoo",
+      "slug": "pugapoo",
+      "aliases": [
+        "Pug-A-Poo"
+      ],
+      "parentBreedIds": [
+        "dog:poodle",
+        "dog:pug"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:puggle",
+      "name": "Puggle",
+      "slug": "puggle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:beagle",
+        "dog:pug"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:saint-berdoodle",
+      "name": "Saint Berdoodle",
+      "slug": "saint-berdoodle",
+      "aliases": [
+        "St. Berdoodle"
+      ],
+      "parentBreedIds": [
+        "dog:poodle",
+        "dog:saint-bernard"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:schnoodle",
+      "name": "Schnoodle",
+      "slug": "schnoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:miniature-schnauzer",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:sheltidoodle",
+      "name": "Sheltidoodle",
+      "slug": "sheltidoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:poodle",
+        "dog:shetland-sheepdog"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:shichon",
+      "name": "Shichon",
+      "slug": "shichon",
+      "aliases": [
+        "Zuchon"
+      ],
+      "parentBreedIds": [
+        "dog:bichon-frise",
+        "dog:shih-tzu"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:shih-poo",
+      "name": "Shih Poo",
+      "slug": "shih-poo",
+      "aliases": [
+        "Shih-poo"
+      ],
+      "parentBreedIds": [
+        "dog:poodle",
+        "dog:shih-tzu"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:shorkie",
+      "name": "Shorkie",
+      "slug": "shorkie",
+      "aliases": [
+        "Shorkie Tzu"
+      ],
+      "parentBreedIds": [
+        "dog:shih-tzu",
+        "dog:yorkshire-terrier"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:siberpoo",
+      "name": "Siberpoo",
+      "slug": "siberpoo",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:poodle",
+        "dog:siberian-husky"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:springerdoodle",
+      "name": "Springerdoodle",
+      "slug": "springerdoodle",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:english-springer-spaniel",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "Designer Breed Registry recognized hybrid dogs",
+          "url": "https://www.dogbreedinfo.com/hybriddog/designerbreedregistry.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:texas-heeler",
+      "name": "Texas Heeler",
+      "slug": "texas-heeler",
+      "aliases": [],
+      "parentBreedIds": [
+        "dog:australian-cattle-dog",
+        "dog:australian-shepherd"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:whoodle",
+      "name": "Whoodle",
+      "slug": "whoodle",
+      "aliases": [
+        "Wheatendoodle"
+      ],
+      "parentBreedIds": [
+        "dog:soft-coated-wheaten-terrier",
+        "dog:poodle"
+      ],
+      "sources": [
+        {
+          "name": "PetMD Whoodle dog breed health and care",
+          "url": "https://www.petmd.com/dog/breeds/whoodle",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "dog-mix:yorkipoo",
+      "name": "Yorkipoo",
+      "slug": "yorkipoo",
+      "aliases": [
+        "Yorkiepoo",
+        "Yorkie Poo"
+      ],
+      "parentBreedIds": [
+        "dog:poodle",
+        "dog:yorkshire-terrier"
+      ],
+      "sources": [
+        {
+          "name": "American Canine Hybrid Club recognized hybrid dogs",
+          "url": "https://dogbreedinfo.com/americancaninehybridclub.htm",
+          "retrievedAt": "2026-11-15"
+        }
+      ]
+    }
+  ]
+}

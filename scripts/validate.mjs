@@ -13,7 +13,7 @@ addFormats(ajv);
 
 const schemas = Object.fromEntries(
   await Promise.all(
-    ["catalog", "species", "breeds", "classifications"].map(async (name) => [
+    ["catalog", "species", "breeds", "mixes", "classifications"].map(async (name) => [
       name,
       JSON.parse(await readFile(path.join(root, "schema", `${name}.schema.json`), "utf8"))
     ])
@@ -37,6 +37,15 @@ function addDuplicateErrors(values, label) {
     if (seen.has(key)) errors.push(`Duplicate ${label}: ${value}`);
     seen.add(key);
   }
+}
+
+function normalizeSearchName(value) {
+  return value.normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLocaleLowerCase("en")
+    .replaceAll("&", " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
 }
 
 function compareClassificationRecords(left, right) {
@@ -103,6 +112,38 @@ for (const entry of catalog.species) {
     }
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(breed.slug)) {
       errors.push(`${entry.id}: invalid slug ${breed.slug}`);
+    }
+  }
+
+  if (entry.mixes) {
+    const mixDocument = JSON.parse(await readFile(path.join(root, entry.mixes), "utf8"));
+    const mixes = mixDocument.mixes;
+    validateSchema("mixes", mixDocument, entry.mixes);
+    if (mixDocument.species !== entry.id) errors.push(`${entry.id}: mix file species mismatch`);
+    if (mixes.length !== entry.mixCount) errors.push(`${entry.id}: expected ${entry.mixCount} mixes, found ${mixes.length}`);
+    const expectedMixList = `${mixes.map((mix) => mix.name).join("\n")}\n`;
+    const actualMixList = await readFile(path.join(root, entry.mixList), "utf8").catch(() => null);
+    if (actualMixList !== expectedMixList) errors.push(`${entry.id}: ${entry.mixList} is missing or out of date; run npm run generate`);
+    const sortedMixes = [...mixes].sort((left, right) => left.name.localeCompare(right.name, "en"));
+    if (mixes.some((mix, index) => mix.id !== sortedMixes[index].id)) errors.push(`${entry.id}: mixes are not sorted by name`);
+    addDuplicateErrors(mixes.map((mix) => mix.id), `${entry.id} mix id`);
+    addDuplicateErrors(mixes.map((mix) => mix.slug), `${entry.id} mix slug`);
+    const breedIds = new Set(breeds.map((breed) => breed.id));
+    const searchNames = new Map();
+    for (const record of [...breeds, ...mixes]) {
+      if (!Array.isArray(record.aliases)) errors.push(`${record.id}: missing aliases array`);
+      for (const name of [record.name, ...(record.aliases ?? [])]) {
+        const normalized = normalizeSearchName(name);
+        const previous = searchNames.get(normalized);
+        if (previous && previous !== record.id) errors.push(`${record.id}: search name ${name} conflicts with ${previous}`);
+        else searchNames.set(normalized, record.id);
+      }
+    }
+    for (const mix of mixes) {
+      if (mix.id !== `dog-mix:${mix.slug}`) errors.push(`${mix.id}: id and slug do not agree`);
+      for (const parentId of mix.parentBreedIds ?? []) {
+        if (!breedIds.has(parentId)) errors.push(`${mix.id}: missing parent breed ${parentId}`);
+      }
     }
   }
 
@@ -187,5 +228,6 @@ if (errors.length > 0) {
     .filter((entry) => entry.classifications)
     .map((entry) => `${entry.classificationMembershipCount} ${entry.id} classifications`)
     .join(", ");
-  console.log(`Breed reference is valid: ${summary} breeds${classificationSummary ? `; ${classificationSummary}` : ""}.`);
+  const mixSummary = catalog.species.filter((entry) => entry.mixes).map((entry) => `${entry.mixCount} ${entry.id} mixes`).join(", ");
+  console.log(`Breed reference is valid: ${summary} breeds${mixSummary ? `; ${mixSummary}` : ""}${classificationSummary ? `; ${classificationSummary}` : ""}.`);
 }

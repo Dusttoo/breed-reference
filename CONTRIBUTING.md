@@ -16,6 +16,13 @@ Breed identity is not determined by spelling alone. Translations, historic
 names, coat varieties, size varieties, and registry-specific classifications
 must be reviewed before records are merged or split.
 
+For named dog mixes, add a record to `species/dog/mixes.json` with two existing
+parent breed IDs and a source that identifies the cross. Keep alternate market
+names in `aliases`; omit broad terms that could refer to multiple records.
+Do not assign registry recognition to a mix or infer a litter's actual parents
+from its market name. Add colloquial breed aliases only when they are specific
+enough for an unambiguous search result.
+
 ## Refreshing registry data
 
 Run the relevant `audit:*` script to capture a dated registry snapshot. Then
